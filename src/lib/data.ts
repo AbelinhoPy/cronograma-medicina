@@ -147,7 +147,17 @@ export async function getAllSessions(): Promise<Session[]> {
   return getSeedSessions();
 }
 
+export const YANINA_EMAIL = "yaninasebriano13@gmail.com";
+
+export function normalizeUserId(userId?: string | null): string {
+  if (!userId) return YANINA_EMAIL;
+  const clean = userId.trim().toLowerCase();
+  if (clean === "yanina" || clean.includes("yanina")) return YANINA_EMAIL;
+  return clean;
+}
+
 export async function getStudentProgressForUser(userId: string): Promise<Map<string, StudentProgress>> {
+  const effectiveUserId = normalizeUserId(userId);
   const map = new Map<string, StudentProgress>();
 
   if (isDbConfigured && db) {
@@ -155,7 +165,7 @@ export async function getStudentProgressForUser(userId: string): Promise<Map<str
       const rows = await db
         .select()
         .from(schema.studentProgress)
-        .where(eq(schema.studentProgress.userId, userId));
+        .where(eq(schema.studentProgress.userId, effectiveUserId));
 
       rows.forEach((r) => {
         map.set(r.sessionId, {
@@ -231,7 +241,8 @@ export async function updateSessionProgress(
     actual_minutes?: number;
   }
 ): Promise<StudentProgress> {
-  const progressId = `progress_${userId}_${sessionId}`;
+  const effectiveUserId = normalizeUserId(userId);
+  const progressId = `progress_${effectiveUserId}_${sessionId}`;
   const now = new Date();
 
   if (isDbConfigured && db) {
@@ -241,7 +252,7 @@ export async function updateSessionProgress(
         .from(schema.studentProgress)
         .where(
           and(
-            eq(schema.studentProgress.userId, userId),
+            eq(schema.studentProgress.userId, effectiveUserId),
             eq(schema.studentProgress.sessionId, sessionId)
           )
         );
@@ -256,7 +267,7 @@ export async function updateSessionProgress(
         .insert(schema.studentProgress)
         .values({
           id: progressId,
-          userId,
+          userId: effectiveUserId,
           sessionId,
           status,
           difficultyHard,
@@ -277,12 +288,12 @@ export async function updateSessionProgress(
 
       // If marked as difficulty_hard === true, propose reviews
       if (difficultyHard) {
-        await scheduleSpacedReviews(userId, sessionId);
+        await scheduleSpacedReviews(effectiveUserId, sessionId);
       }
 
       return {
         id: progressId,
-        user_id: userId,
+        user_id: effectiveUserId,
         session_id: sessionId,
         status: status as any,
         difficulty_hard: difficultyHard,
@@ -297,10 +308,10 @@ export async function updateSessionProgress(
   }
 
   // In-memory fallback
-  const current = inMemoryProgress.get(`${userId}_${sessionId}`);
+  const current = inMemoryProgress.get(`${effectiveUserId}_${sessionId}`);
   const updated: StudentProgress = {
     id: progressId,
-    user_id: userId,
+    user_id: effectiveUserId,
     session_id: sessionId,
     status: data.status ?? current?.status ?? "pending",
     difficulty_hard: data.difficulty_hard ?? current?.difficulty_hard ?? false,
@@ -309,16 +320,17 @@ export async function updateSessionProgress(
     updated_at: now.toISOString(),
   };
 
-  inMemoryProgress.set(`${userId}_${sessionId}`, updated);
+  inMemoryProgress.set(`${effectiveUserId}_${sessionId}`, updated);
 
   if (updated.difficulty_hard) {
-    await scheduleSpacedReviews(userId, sessionId);
+    await scheduleSpacedReviews(effectiveUserId, sessionId);
   }
 
   return updated;
 }
 
 export async function scheduleSpacedReviews(userId: string, sessionId: string): Promise<ScheduleReview[]> {
+  const effectiveUserId = normalizeUserId(userId);
   const allSessions = await getAllSessions();
   const session = allSessions.find((s) => s.id === sessionId);
   if (!session) return [];
@@ -328,7 +340,7 @@ export async function scheduleSpacedReviews(userId: string, sessionId: string): 
 
   for (const interval of intervals) {
     const reviewDate = addDaysToDateString(session.date, interval);
-    const reviewId = `review_${userId}_${sessionId}_${interval}`;
+    const reviewId = `review_${effectiveUserId}_${sessionId}_${interval}`;
 
     if (isDbConfigured && db) {
       try {
@@ -336,7 +348,7 @@ export async function scheduleSpacedReviews(userId: string, sessionId: string): 
           .insert(schema.scheduleReviews)
           .values({
             id: reviewId,
-            userId,
+            userId: effectiveUserId,
             sessionId,
             reviewDate,
             intervalDays: interval,
@@ -350,7 +362,7 @@ export async function scheduleSpacedReviews(userId: string, sessionId: string): 
       if (!inMemoryReviews.has(reviewId)) {
         inMemoryReviews.set(reviewId, {
           id: reviewId,
-          user_id: userId,
+          user_id: effectiveUserId,
           session_id: sessionId,
           review_date: reviewDate,
           interval_days: interval,
@@ -364,7 +376,7 @@ export async function scheduleSpacedReviews(userId: string, sessionId: string): 
 
     reviews.push({
       id: reviewId,
-      user_id: userId,
+      user_id: effectiveUserId,
       session_id: sessionId,
       review_date: reviewDate,
       interval_days: interval,
@@ -379,6 +391,7 @@ export async function scheduleSpacedReviews(userId: string, sessionId: string): 
 }
 
 export async function getReviewsForUser(userId: string): Promise<ScheduleReview[]> {
+  const effectiveUserId = normalizeUserId(userId);
   const allSessions = await getAllSessions();
   const sessionMap = new Map(allSessions.map((s) => [s.id, s]));
 
@@ -387,7 +400,7 @@ export async function getReviewsForUser(userId: string): Promise<ScheduleReview[
       const rows = await db
         .select()
         .from(schema.scheduleReviews)
-        .where(eq(schema.scheduleReviews.userId, userId))
+        .where(eq(schema.scheduleReviews.userId, effectiveUserId))
         .orderBy(asc(schema.scheduleReviews.reviewDate));
 
       return rows.map((r) => {
@@ -409,7 +422,7 @@ export async function getReviewsForUser(userId: string): Promise<ScheduleReview[
     }
   }
 
-  return Array.from(inMemoryReviews.values()).filter((r) => r.user_id === userId);
+  return Array.from(inMemoryReviews.values()).filter((r) => r.user_id === effectiveUserId);
 }
 
 /**
