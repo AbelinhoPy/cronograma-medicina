@@ -1,0 +1,110 @@
+{
+  "root": {
+    "success": true,
+    "id": "1_0-8ExeG1iuGWf_UdTEhtTwD6JpTPxCa",
+    "url": "https://drive.google.com/drive/folders/1_0-8ExeG1iuGWf_UdTEhtTwD6JpTPxCa",
+    "title": "Primer año de medicina Yanina",
+    "parent_id": "root"
+  },
+  "support_folder": {
+    "success": true,
+    "id": "12dcJLU-jfi029mnsm9XupYd9ZLsT15EE",
+    "url": "https://drive.google.com/drive/folders/12dcJLU-jfi029mnsm9XupYd9ZLsT15EE",
+    "title": "00 App y cronograma",
+    "parent_id": "1_0-8ExeG1iuGWf_UdTEhtTwD6JpTPxCa"
+  },
+  "support_files": [
+    {
+      "name": "materiales.drive.json",
+      "drive": {
+        "accepted_input": "file_uri",
+        "success": true,
+        "id": "1uKVEOq-ni-ga0tSVsKDxXBNwoYHwzIil",
+        "title": "materiales.drive.json",
+        "file_name": "materiales.drive.json",
+        "mime_type": "application/json",
+        "url": "https://drive.google.com/file/d/1uKVEOq-ni-ga0tSVsKDxXBNwoYHwzIil/view?usp=drivesdk",
+        "parent_id": "12dcJLU-jfi029mnsm9XupYd9ZLsT15EE",
+        "structuredContent": {
+          "accepted_input": "file_uri",
+          "success": true,
+          "id": "1uKVEOq-ni-ga0tSVsKDxXBNwoYHwzIil",
+          "title": "materiales.drive.json",
+          "file_name": "materiales.drive.json",
+          "mime_type": "application/json",
+          "url": "https://drive.google.com/file/d/1uKVEOq-ni-ga0tSVsKDxXBNwoYHwzIil/view?usp=drivesdk",
+          "parent_id": "12dcJLU-jfi029mnsm9XupYd9ZLsT15EE"
+        }
+      }
+    },
+    {
+      "name": "cronograma.seed.json",
+      "drive": {
+        "accepted_input": "file_uri",
+        "success": true,
+        "id": "101IAiBai9hqfuBQZfurLJiY8oJ5E0yJZ",
+        "title": "cronograma.seed.json",
+        "file_name": "cronograma.seed.json",
+        "mime_type": "application/json",
+        "url": "https://drive.google.com/file/d/101IAiBai9hqfuBQZfurLJiY8oJ5E0yJZ/view?usp=drivesdk",
+        "parent_id": "12dcJLU-jfi029mnsm9XupYd9ZLsT15EE",
+        "structuredContent": {
+          "accepted_input": "file_uri",
+          "success": true,
+          "id": "101IAiBai9hqfuBQZfurLJiY8oJ5E0yJZ",
+          "title": "cronograma.seed.json",
+          "file_name": "cronograma.seed.json",
+          "mime_type": "application/json",
+          "url": "https://drive.google.com/file/d/101IAiBai9hqfuBQZfurLJiY8oJ5E0yJZ/view?usp=drivesdk",
+          "parent_id": "12dcJLU-jfi029mnsm9XupYd9ZLsT15EE"
+        }
+      }
+    },
+    {
+      "name": "calendario-original.html",
+      "drive": {
+        "accepted_input": "file_uri",
+        "success": true,
+        "id": "1-SXgsZuAStmIrgmeQFdboZ5zXO7GREO5",
+        "title": "calendario-original.html",
+        "file_name": "calendario-original.html",
+        "mime_type": "text/html",
+        "url": "https://drive.google.com/file/d/1-SXgsZuAStmIrgmeQFdboZ5zXO7GREO5/view?usp=drivesdk",
+        "parent_id": "12dcJLU-jfi029mnsm9XupYd9ZLsT15EE",
+        "structuredContent": {
+          "accepted_input": "file_uri",
+          "success": true,
+          "id": "1-SXgsZuAStmIrgmeQFdboZ5zXO7GREO5",
+          "title": "calendario-original.html",
+          "file_name": "calendario-original.html",
+          "mime_type": "text/html",
+          "url": "https://drive.google.com/file/d/1-SXgsZuAStmIrgmeQFdboZ5zXO7GREO5/view?usp=drivesdk",
+          "parent_id": "12dcJLU-jfi029mnsm9XupYd9ZLsT15EE"
+        }
+      }
+    },
+    {
+      "name": "PROMPT_ANTIGRAVITY.md",
+      "drive": {
+        "accepted_input": "file_uri",
+        "success": true,
+        "id": "1VglbjXhXx5YVjXJqGudYGHyTxoQ3xoCC",
+        "title": "PROMPT_ANTIGRAVITY.md",
+        "file_name": "PROMPT_ANTIGRAVITY.md",
+        "mime_type": "text/markdown",
+        "url": "https://drive.google.com/file/d/1VglbjXhXx5YVjXJqGudYGHyTxoQ3xoCC/view?usp=drivesdk",
+        "parent_id": "12dcJLU-jfi029mnsm9XupYd9ZLsT15EE",
+        "structuredContent": {
+          "accepted_input": "file_uri",
+          "success": true,
+          "id": "1VglbjXhXx5YVjXJqGudYGHyTxoQ3xoCC",
+          "title": "PROMPT_ANTIGRAVITY.md",
+          "file_name": "PROMPT_ANTIGRAVITY.md",
+          "mime_type": "text/markdown",
+          "url": "https://drive.google.com/file/d/1VglbjXhXx5YVjXJqGudYGHyTxoQ3xoCC/view?usp=drivesdk",
+          "parent_id": "12dcJLU-jfi029mnsm9XupYd9ZLsT15EE"
+        }
+      }
+    }
+  ]
+}

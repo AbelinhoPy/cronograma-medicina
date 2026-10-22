@@ -1,0 +1,2087 @@
+{
+  "schema_version": 1,
+  "edition": "2026",
+  "timezone": "America/Asuncion",
+  "title": "Mi ruta a los finales · Medicina",
+  "student_display_name": "Yanina",
+  "start_date": "2026-10-21",
+  "end_date": "2026-12-07",
+  "daily_minutes_assumed": 270,
+  "sunday_minutes_assumed": 120,
+  "notes": [
+    "Hay 8 evaluaciones fechadas; el usuario mencionó 9. No inventar la novena.",
+    "Fechas emparejadas en el orden informado originalmente; mantener editables y por confirmar.",
+    "La secuencia y la carga son un borrador. Falta validar el alcance de prácticos, horas disponibles y completar la vinculación de PDF.",
+    "El 21/10/2026 se dedica a miembro inferior.",
+    "Biofísica: 11 PDF nuevos disponibles; actualizar el contenido de sus sesiones sin desplazar el estudio anticipado de Anatomía e Histología.",
+    "Bioestadística es material de la UNE y su pertenencia al plan de Yanina queda por confirmar; no asignar examen."
+  ],
+  "subjects": [
+    {
+      "id": "anatomia",
+      "name": "Anatomía",
+      "color": "#2776db"
+    },
+    {
+      "id": "biologia",
+      "name": "Biología",
+      "color": "#169477"
+    },
+    {
+      "id": "histologia",
+      "name": "Histología y Embriología",
+      "color": "#8651cf"
+    },
+    {
+      "id": "biofisica",
+      "name": "Biofísica",
+      "color": "#d18a13"
+    },
+    {
+      "id": "bioestadistica",
+      "name": "Bioestadística",
+      "color": "#64718a"
+    }
+  ],
+  "exams": [
+    {
+      "id": "exam_2026-10-26_biofisica",
+      "date": "2026-10-26",
+      "subject_id": "biofisica",
+      "title": "Final práctico de Biofísica",
+      "kind": "practical",
+      "needs_confirmation": true
+    },
+    {
+      "id": "exam_2026-11-02_biofisica",
+      "date": "2026-11-02",
+      "subject_id": "biofisica",
+      "title": "Final de Biofísica",
+      "kind": "final",
+      "needs_confirmation": true
+    },
+    {
+      "id": "exam_2026-11-04_anatomia",
+      "date": "2026-11-04",
+      "subject_id": "anatomia",
+      "title": "Entrega de miembro inferior",
+      "kind": "assignment",
+      "needs_confirmation": true
+    },
+    {
+      "id": "exam_2026-11-05_biologia",
+      "date": "2026-11-05",
+      "subject_id": "biologia",
+      "title": "Final práctico de Biología",
+      "kind": "practical",
+      "needs_confirmation": true
+    },
+    {
+      "id": "exam_2026-11-18_histologia",
+      "date": "2026-11-18",
+      "subject_id": "histologia",
+      "title": "Final práctico de Histología",
+      "kind": "practical",
+      "needs_confirmation": true
+    },
+    {
+      "id": "exam_2026-11-25_anatomia",
+      "date": "2026-11-25",
+      "subject_id": "anatomia",
+      "title": "Final práctico de Anatomía",
+      "kind": "practical",
+      "needs_confirmation": true
+    },
+    {
+      "id": "exam_2026-12-01_anatomia",
+      "date": "2026-12-01",
+      "subject_id": "anatomia",
+      "title": "Final de Anatomía",
+      "kind": "final",
+      "needs_confirmation": true
+    },
+    {
+      "id": "exam_2026-12-07_histologia",
+      "date": "2026-12-07",
+      "subject_id": "histologia",
+      "title": "Final de Histología",
+      "kind": "final",
+      "needs_confirmation": true
+    }
+  ],
+  "sessions": [
+    {
+      "id": "session_2026-10-21_1",
+      "date": "2026-10-21",
+      "order": 1,
+      "subject_id": "anatomia",
+      "label": "Miembro inferior",
+      "duration_minutes": 90,
+      "instructions": "Pelvis y cadera · Guía pp. 2–5. Organización, orientación del coxal y articulación coxofemoral. Reconocer referencias en imágenes del material de cátedra.",
+      "material_refs": [
+        {
+          "source_filename": "Guia_Estudio_Miembro_Inferior_Medicina.pdf",
+          "page_start": 2,
+          "page_end": 5,
+          "page_basis": "physical_pdf_pages",
+          "mapping_status": "verified_for_existing_guide",
+          "material_id": "material_1u1v4MlB7_LNKrbwV11wJdQyPipUbERZc",
+          "drive_file_id": "1u1v4MlB7_LNKrbwV11wJdQyPipUbERZc",
+          "view_url": "https://drive.google.com/file/d/1u1v4MlB7_LNKrbwV11wJdQyPipUbERZc/view?usp=drivesdk"
+        }
+      ],
+      "needs_content_review": false,
+      "needs_material_mapping": false
+    },
+    {
+      "id": "session_2026-10-21_2",
+      "date": "2026-10-21",
+      "order": 2,
+      "subject_id": "anatomia",
+      "label": "Miembro inferior",
+      "duration_minutes": 90,
+      "instructions": "Región glútea · Guía pp. 6–8. Glúteos, pelvitrocantéricos y plexo sacro. Hacer un cuadro de origen, inserción, acción e inervación.",
+      "material_refs": [
+        {
+          "source_filename": "Guia_Estudio_Miembro_Inferior_Medicina.pdf",
+          "page_start": 6,
+          "page_end": 8,
+          "page_basis": "physical_pdf_pages",
+          "mapping_status": "verified_for_existing_guide",
+          "material_id": "material_1u1v4MlB7_LNKrbwV11wJdQyPipUbERZc",
+          "drive_file_id": "1u1v4MlB7_LNKrbwV11wJdQyPipUbERZc",
+          "view_url": "https://drive.google.com/file/d/1u1v4MlB7_LNKrbwV11wJdQyPipUbERZc/view?usp=drivesdk"
+        }
+      ],
+      "needs_content_review": false,
+      "needs_material_mapping": false
+    },
+    {
+      "id": "session_2026-10-21_3",
+      "date": "2026-10-21",
+      "order": 3,
+      "subject_id": "anatomia",
+      "label": "Miembro inferior",
+      "duration_minutes": 90,
+      "instructions": "Recuperación activa · Volver a pp. 2–8 sin releer primero: dibujar el coxal, ubicar músculos y explicar movimientos. Cerrar con 10 preguntas y anotar errores.",
+      "material_refs": [
+        {
+          "source_filename": "Guia_Estudio_Miembro_Inferior_Medicina.pdf",
+          "page_start": 2,
+          "page_end": 8,
+          "page_basis": "physical_pdf_pages",
+          "mapping_status": "verified_for_existing_guide",
+          "material_id": "material_1u1v4MlB7_LNKrbwV11wJdQyPipUbERZc",
+          "drive_file_id": "1u1v4MlB7_LNKrbwV11wJdQyPipUbERZc",
+          "view_url": "https://drive.google.com/file/d/1u1v4MlB7_LNKrbwV11wJdQyPipUbERZc/view?usp=drivesdk"
+        }
+      ],
+      "needs_content_review": false,
+      "needs_material_mapping": false
+    },
+    {
+      "id": "session_2026-10-22_1",
+      "date": "2026-10-22",
+      "order": 1,
+      "subject_id": "biofisica",
+      "label": "Biofisica",
+      "duration_minutes": 90,
+      "instructions": "Ejercicios tipo práctico, fórmulas y corrección de errores. Carga breve por su menor dificultad; temario y ejercicios específicos pendientes de confirmar.",
+      "material_refs": [],
+      "needs_content_review": true,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-10-22_2",
+      "date": "2026-10-22",
+      "order": 2,
+      "subject_id": "biologia",
+      "label": "Biologia",
+      "duration_minutes": 90,
+      "instructions": "Biología · 1. Introduccion a la Biologia + 2. Composicion Quimica de los seres vivos. Primera pasada orientativa según los PDF disponibles; cerrar con preguntas y recuperar lo visto 1–3 días antes. Ajustar al alcance real del práctico.",
+      "material_refs": [],
+      "needs_content_review": true,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-10-22_3",
+      "date": "2026-10-22",
+      "order": 3,
+      "subject_id": "histologia",
+      "label": "Histologia",
+      "duration_minutes": 90,
+      "instructions": "Histología · Histología 1: dividir el resumen en unidades de tejidos y comenzar la primera. Estudiar estructura y función; cerrar reconociendo imágenes sin rótulos. Repasar 10–15 min los preparados de 1, 3 y 7 días antes. Secuencia provisional hasta confirmar programa y alcance.",
+      "material_refs": [],
+      "needs_content_review": true,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-10-23_1",
+      "date": "2026-10-23",
+      "order": 1,
+      "subject_id": "anatomia",
+      "label": "Miembro inferior",
+      "duration_minutes": 90,
+      "instructions": "Fémur y muslo · Guía pp. 9–12. Comparar compartimientos anterior, medial y posterior; recordar la cadera sin apuntes durante los primeros 15 min.",
+      "material_refs": [
+        {
+          "source_filename": "Guia_Estudio_Miembro_Inferior_Medicina.pdf",
+          "page_start": 9,
+          "page_end": 12,
+          "page_basis": "physical_pdf_pages",
+          "mapping_status": "verified_for_existing_guide",
+          "material_id": "material_1u1v4MlB7_LNKrbwV11wJdQyPipUbERZc",
+          "drive_file_id": "1u1v4MlB7_LNKrbwV11wJdQyPipUbERZc",
+          "view_url": "https://drive.google.com/file/d/1u1v4MlB7_LNKrbwV11wJdQyPipUbERZc/view?usp=drivesdk"
+        }
+      ],
+      "needs_content_review": false,
+      "needs_material_mapping": false
+    },
+    {
+      "id": "session_2026-10-23_2",
+      "date": "2026-10-23",
+      "order": 2,
+      "subject_id": "biologia",
+      "label": "Biologia",
+      "duration_minutes": 90,
+      "instructions": "Biología · 3. Carbohidratos y Acidos Nucleicos + 4. Lipidos. Primera pasada orientativa según los PDF disponibles; cerrar con preguntas y recuperar lo visto 1–3 días antes. Ajustar al alcance real del práctico.",
+      "material_refs": [],
+      "needs_content_review": true,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-10-23_3",
+      "date": "2026-10-23",
+      "order": 3,
+      "subject_id": "histologia",
+      "label": "Histologia",
+      "duration_minutes": 90,
+      "instructions": "Histología · Histología 1: continuar las unidades pendientes de tejidos. Estudiar estructura y función; cerrar reconociendo imágenes sin rótulos. Repasar 10–15 min los preparados de 1, 3 y 7 días antes. Secuencia provisional hasta confirmar programa y alcance.",
+      "material_refs": [],
+      "needs_content_review": true,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-10-24_1",
+      "date": "2026-10-24",
+      "order": 1,
+      "subject_id": "biofisica",
+      "label": "Biofisica",
+      "duration_minutes": 90,
+      "instructions": "Ejercicios tipo práctico, fórmulas y corrección de errores. Carga breve por su menor dificultad; temario y ejercicios específicos pendientes de confirmar.",
+      "material_refs": [],
+      "needs_content_review": true,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-10-24_2",
+      "date": "2026-10-24",
+      "order": 2,
+      "subject_id": "biologia",
+      "label": "Biologia",
+      "duration_minutes": 90,
+      "instructions": "Biología · 5. Lipidos y Proteinas + 6 y 7. Citologia. Primera pasada orientativa según los PDF disponibles; cerrar con preguntas y recuperar lo visto 1–3 días antes. Ajustar al alcance real del práctico.",
+      "material_refs": [],
+      "needs_content_review": true,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-10-24_3",
+      "date": "2026-10-24",
+      "order": 3,
+      "subject_id": "anatomia",
+      "label": "Anatomia",
+      "duration_minutes": 90,
+      "instructions": "Primera vuelta · Bolilla 1: Aparato Osteo-artro-muscular • Hueso: Costillas; articulación: Glenohumeral; • Musculo: Cuádriceps femoral • Organo: Colon (ciego, ascendentes, transverso, descendente, sigmoides) • Triángulos del cuello (anterior, posterior) Neuroanatomía • Cerebro : Configuracion Externa. Identificar estructuras y explicar cada apartado sin apuntes. Últimos 15 min: errores de la sesión anterior. Si no se termina, priorizar los puntos débiles y usar el bloque de recuperación.",
+      "material_refs": [
+        {
+          "source_filename": "Bolillero 2026 actualizado docx_260923_135648.pdf",
+          "page_start": null,
+          "page_end": null,
+          "mapping_status": "document_identified_pages_pending",
+          "material_id": "material_1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r",
+          "drive_file_id": "1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r",
+          "view_url": "https://drive.google.com/file/d/1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r/view?usp=drivesdk"
+        }
+      ],
+      "needs_content_review": false,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-10-25_1",
+      "date": "2026-10-25",
+      "order": 1,
+      "subject_id": "biofisica",
+      "label": "Biofisica",
+      "duration_minutes": 60,
+      "instructions": "Ejercicios tipo práctico, fórmulas y corrección de errores. Carga breve por su menor dificultad; temario y ejercicios específicos pendientes de confirmar.",
+      "material_refs": [],
+      "needs_content_review": true,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-10-25_2",
+      "date": "2026-10-25",
+      "order": 2,
+      "subject_id": "biologia",
+      "label": "Biologia",
+      "duration_minutes": 60,
+      "instructions": "Biología · 8. Virus + 9. Membrana plasmática. Primera pasada orientativa según los PDF disponibles; cerrar con preguntas y recuperar lo visto 1–3 días antes. Ajustar al alcance real del práctico.",
+      "material_refs": [],
+      "needs_content_review": true,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-10-26_1",
+      "date": "2026-10-26",
+      "order": 1,
+      "subject_id": "biologia",
+      "label": "Biologia",
+      "duration_minutes": 60,
+      "instructions": "Biología · 10. Funciones de la Membrana + 11. Funciones de la Membrana Transporte Activo. Primera pasada orientativa según los PDF disponibles; cerrar con preguntas y recuperar lo visto 1–3 días antes. Ajustar al alcance real del práctico.",
+      "material_refs": [],
+      "needs_content_review": true,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-10-26_2",
+      "date": "2026-10-26",
+      "order": 2,
+      "subject_id": "anatomia",
+      "label": "Miembro inferior",
+      "duration_minutes": 60,
+      "instructions": "Vasos, topografía y nervios del muslo · Guía pp. 13–16. Trazar recorridos; revisar 10 min los errores de pelvis y muslo.",
+      "material_refs": [
+        {
+          "source_filename": "Guia_Estudio_Miembro_Inferior_Medicina.pdf",
+          "page_start": 13,
+          "page_end": 16,
+          "page_basis": "physical_pdf_pages",
+          "mapping_status": "verified_for_existing_guide",
+          "material_id": "material_1u1v4MlB7_LNKrbwV11wJdQyPipUbERZc",
+          "drive_file_id": "1u1v4MlB7_LNKrbwV11wJdQyPipUbERZc",
+          "view_url": "https://drive.google.com/file/d/1u1v4MlB7_LNKrbwV11wJdQyPipUbERZc/view?usp=drivesdk"
+        }
+      ],
+      "needs_content_review": false,
+      "needs_material_mapping": false
+    },
+    {
+      "id": "session_2026-10-27_1",
+      "date": "2026-10-27",
+      "order": 1,
+      "subject_id": "anatomia",
+      "label": "Miembro inferior",
+      "duration_minutes": 90,
+      "instructions": "Rodilla y pierna · Guía pp. 17–22. Superficies, meniscos y ligamentos; compartimientos y fosa poplítea. Priorizar reconocimiento y relaciones.",
+      "material_refs": [
+        {
+          "source_filename": "Guia_Estudio_Miembro_Inferior_Medicina.pdf",
+          "page_start": 17,
+          "page_end": 22,
+          "page_basis": "physical_pdf_pages",
+          "mapping_status": "verified_for_existing_guide",
+          "material_id": "material_1u1v4MlB7_LNKrbwV11wJdQyPipUbERZc",
+          "drive_file_id": "1u1v4MlB7_LNKrbwV11wJdQyPipUbERZc",
+          "view_url": "https://drive.google.com/file/d/1u1v4MlB7_LNKrbwV11wJdQyPipUbERZc/view?usp=drivesdk"
+        }
+      ],
+      "needs_content_review": false,
+      "needs_material_mapping": false
+    },
+    {
+      "id": "session_2026-10-27_2",
+      "date": "2026-10-27",
+      "order": 2,
+      "subject_id": "biologia",
+      "label": "Biologia",
+      "duration_minutes": 90,
+      "instructions": "Biología · 12. Citosol + 13. Citoesqueleto. Primera pasada orientativa según los PDF disponibles; cerrar con preguntas y recuperar lo visto 1–3 días antes. Ajustar al alcance real del práctico.",
+      "material_refs": [],
+      "needs_content_review": true,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-10-27_3",
+      "date": "2026-10-27",
+      "order": 3,
+      "subject_id": "histologia",
+      "label": "Histologia",
+      "duration_minutes": 90,
+      "instructions": "Histología · Sistema cardiovascular. Estudiar estructura y función; cerrar reconociendo imágenes sin rótulos. Repasar 10–15 min los preparados de 1, 3 y 7 días antes. Secuencia provisional hasta confirmar programa y alcance.",
+      "material_refs": [],
+      "needs_content_review": true,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-10-28_1",
+      "date": "2026-10-28",
+      "order": 1,
+      "subject_id": "biofisica",
+      "label": "Biofisica",
+      "duration_minutes": 90,
+      "instructions": "Repaso para el final: ejercicios tipo examen y conceptos que fallaron. Priorizar precisión, sin ocupar los bloques de las materias extensas.",
+      "material_refs": [],
+      "needs_content_review": true,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-10-28_2",
+      "date": "2026-10-28",
+      "order": 2,
+      "subject_id": "biologia",
+      "label": "Biologia",
+      "duration_minutes": 90,
+      "instructions": "Biología · 14. Citoesqueleto II + 15. Sistema de Endomembranas I. Primera pasada orientativa según los PDF disponibles; cerrar con preguntas y recuperar lo visto 1–3 días antes. Ajustar al alcance real del práctico.",
+      "material_refs": [],
+      "needs_content_review": true,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-10-28_3",
+      "date": "2026-10-28",
+      "order": 3,
+      "subject_id": "anatomia",
+      "label": "Anatomia",
+      "duration_minutes": 90,
+      "instructions": "Primera vuelta · Bolilla 2: • Hueso: Fémur; articulación: Radiocarpiana; • Musculo: Diafragma • Organo: Riñón (configuración externa e interna) • Arteria Carotida. Neuroanatomía • Medula Espinal. Identificar estructuras y explicar cada apartado sin apuntes. Últimos 15 min: errores de la sesión anterior. Si no se termina, priorizar los puntos débiles y usar el bloque de recuperación.",
+      "material_refs": [
+        {
+          "source_filename": "Bolillero 2026 actualizado docx_260923_135648.pdf",
+          "page_start": null,
+          "page_end": null,
+          "mapping_status": "document_identified_pages_pending",
+          "material_id": "material_1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r",
+          "drive_file_id": "1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r",
+          "view_url": "https://drive.google.com/file/d/1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r/view?usp=drivesdk"
+        }
+      ],
+      "needs_content_review": false,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-10-29_1",
+      "date": "2026-10-29",
+      "order": 1,
+      "subject_id": "anatomia",
+      "label": "Miembro inferior",
+      "duration_minutes": 90,
+      "instructions": "Vasos y nervios distales · Guía pp. 23–25. Dibujar trayectos, territorios sensitivos y túnel del tarso; recuperar rodilla y fosa poplítea.",
+      "material_refs": [
+        {
+          "source_filename": "Guia_Estudio_Miembro_Inferior_Medicina.pdf",
+          "page_start": 23,
+          "page_end": 25,
+          "page_basis": "physical_pdf_pages",
+          "mapping_status": "verified_for_existing_guide",
+          "material_id": "material_1u1v4MlB7_LNKrbwV11wJdQyPipUbERZc",
+          "drive_file_id": "1u1v4MlB7_LNKrbwV11wJdQyPipUbERZc",
+          "view_url": "https://drive.google.com/file/d/1u1v4MlB7_LNKrbwV11wJdQyPipUbERZc/view?usp=drivesdk"
+        }
+      ],
+      "needs_content_review": false,
+      "needs_material_mapping": false
+    },
+    {
+      "id": "session_2026-10-29_2",
+      "date": "2026-10-29",
+      "order": 2,
+      "subject_id": "biologia",
+      "label": "Biologia",
+      "duration_minutes": 90,
+      "instructions": "Biología · 16. Sistema de Endomembranas II - Golgi, Lisosomas + 17. Mitocondrias. Primera pasada orientativa según los PDF disponibles; cerrar con preguntas y recuperar lo visto 1–3 días antes. Ajustar al alcance real del práctico.",
+      "material_refs": [],
+      "needs_content_review": true,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-10-29_3",
+      "date": "2026-10-29",
+      "order": 3,
+      "subject_id": "histologia",
+      "label": "Histologia",
+      "duration_minutes": 90,
+      "instructions": "Histología · Sistema microvascular. Estudiar estructura y función; cerrar reconociendo imágenes sin rótulos. Repasar 10–15 min los preparados de 1, 3 y 7 días antes. Secuencia provisional hasta confirmar programa y alcance.",
+      "material_refs": [],
+      "needs_content_review": true,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-10-30_1",
+      "date": "2026-10-30",
+      "order": 1,
+      "subject_id": "biofisica",
+      "label": "Biofisica",
+      "duration_minutes": 90,
+      "instructions": "Repaso para el final: ejercicios tipo examen y conceptos que fallaron. Priorizar precisión, sin ocupar los bloques de las materias extensas.",
+      "material_refs": [],
+      "needs_content_review": true,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-10-30_2",
+      "date": "2026-10-30",
+      "order": 2,
+      "subject_id": "biologia",
+      "label": "Biologia",
+      "duration_minutes": 90,
+      "instructions": "Biología · 18. MEC y Comunicacion celular + 19. Nucleo Interfasico. Primera pasada orientativa según los PDF disponibles; cerrar con preguntas y recuperar lo visto 1–3 días antes. Ajustar al alcance real del práctico.",
+      "material_refs": [],
+      "needs_content_review": true,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-10-30_3",
+      "date": "2026-10-30",
+      "order": 3,
+      "subject_id": "anatomia",
+      "label": "Anatomia",
+      "duration_minutes": 90,
+      "instructions": "Primera vuelta · Bolilla 3: • Hueso: Radio y Cubito; articulación: Rodilla; • Musculo: Psoas y cuadrado lumbar • Organo: Faringe • Mediastino : Limites y Contenido. Neuroanatomía • Cerebro Configuracion Interna. Identificar estructuras y explicar cada apartado sin apuntes. Últimos 15 min: errores de la sesión anterior. Si no se termina, priorizar los puntos débiles y usar el bloque de recuperación.",
+      "material_refs": [
+        {
+          "source_filename": "Bolillero 2026 actualizado docx_260923_135648.pdf",
+          "page_start": null,
+          "page_end": null,
+          "mapping_status": "document_identified_pages_pending",
+          "material_id": "material_1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r",
+          "drive_file_id": "1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r",
+          "view_url": "https://drive.google.com/file/d/1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r/view?usp=drivesdk"
+        }
+      ],
+      "needs_content_review": false,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-10-31_1",
+      "date": "2026-10-31",
+      "order": 1,
+      "subject_id": "anatomia",
+      "label": "Miembro inferior",
+      "duration_minutes": 90,
+      "instructions": "Tobillo, pie e integración · Guía pp. 26–31. Huesos, articulaciones, músculos y mapas. Comparar con imágenes de la cátedra y listar dudas para corregir.",
+      "material_refs": [
+        {
+          "source_filename": "Guia_Estudio_Miembro_Inferior_Medicina.pdf",
+          "page_start": 26,
+          "page_end": 31,
+          "page_basis": "physical_pdf_pages",
+          "mapping_status": "verified_for_existing_guide",
+          "material_id": "material_1u1v4MlB7_LNKrbwV11wJdQyPipUbERZc",
+          "drive_file_id": "1u1v4MlB7_LNKrbwV11wJdQyPipUbERZc",
+          "view_url": "https://drive.google.com/file/d/1u1v4MlB7_LNKrbwV11wJdQyPipUbERZc/view?usp=drivesdk"
+        }
+      ],
+      "needs_content_review": false,
+      "needs_material_mapping": false
+    },
+    {
+      "id": "session_2026-10-31_2",
+      "date": "2026-10-31",
+      "order": 2,
+      "subject_id": "biologia",
+      "label": "Biologia",
+      "duration_minutes": 90,
+      "instructions": "Biología · 20. Ciclo Celular y Division Celular. Primera pasada orientativa según los PDF disponibles; cerrar con preguntas y recuperar lo visto 1–3 días antes. Ajustar al alcance real del práctico.",
+      "material_refs": [],
+      "needs_content_review": true,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-10-31_3",
+      "date": "2026-10-31",
+      "order": 3,
+      "subject_id": "histologia",
+      "label": "Histologia",
+      "duration_minutes": 90,
+      "instructions": "Histología · Sistema linfático e inmunidad. Estudiar estructura y función; cerrar reconociendo imágenes sin rótulos. Repasar 10–15 min los preparados de 1, 3 y 7 días antes. Secuencia provisional hasta confirmar programa y alcance.",
+      "material_refs": [],
+      "needs_content_review": true,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-11-01_1",
+      "date": "2026-11-01",
+      "order": 1,
+      "subject_id": "biofisica",
+      "label": "Biofisica",
+      "duration_minutes": 60,
+      "instructions": "Repaso para el final: ejercicios tipo examen y conceptos que fallaron. Priorizar precisión, sin ocupar los bloques de las materias extensas.",
+      "material_refs": [],
+      "needs_content_review": true,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-11-01_2",
+      "date": "2026-11-01",
+      "order": 2,
+      "subject_id": "biologia",
+      "label": "Biologia",
+      "duration_minutes": 60,
+      "instructions": "Biología · 2. Composicion Quimica de los seres vivos + 3. Carbohidratos y Acidos Nucleicos. Primera pasada orientativa según los PDF disponibles; cerrar con preguntas y recuperar lo visto 1–3 días antes. Ajustar al alcance real del práctico.",
+      "material_refs": [],
+      "needs_content_review": true,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-11-02_1",
+      "date": "2026-11-02",
+      "order": 1,
+      "subject_id": "anatomia",
+      "label": "Miembro inferior",
+      "duration_minutes": 60,
+      "instructions": "Autoevaluación de miembro inferior · Guía pp. 32–35. Responder sin mirar el solucionario; corregir solo después. Comprobar qué exige la entrega.",
+      "material_refs": [
+        {
+          "source_filename": "Guia_Estudio_Miembro_Inferior_Medicina.pdf",
+          "page_start": 32,
+          "page_end": 35,
+          "page_basis": "physical_pdf_pages",
+          "mapping_status": "verified_for_existing_guide",
+          "material_id": "material_1u1v4MlB7_LNKrbwV11wJdQyPipUbERZc",
+          "drive_file_id": "1u1v4MlB7_LNKrbwV11wJdQyPipUbERZc",
+          "view_url": "https://drive.google.com/file/d/1u1v4MlB7_LNKrbwV11wJdQyPipUbERZc/view?usp=drivesdk"
+        }
+      ],
+      "needs_content_review": false,
+      "needs_material_mapping": false
+    },
+    {
+      "id": "session_2026-11-02_2",
+      "date": "2026-11-02",
+      "order": 2,
+      "subject_id": "biologia",
+      "label": "Biologia",
+      "duration_minutes": 60,
+      "instructions": "Biología · 4. Lipidos + 5. Lipidos y Proteinas. Primera pasada orientativa según los PDF disponibles; cerrar con preguntas y recuperar lo visto 1–3 días antes. Ajustar al alcance real del práctico.",
+      "material_refs": [],
+      "needs_content_review": true,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-11-03_1",
+      "date": "2026-11-03",
+      "order": 1,
+      "subject_id": "anatomia",
+      "label": "Miembro inferior",
+      "duration_minutes": 90,
+      "instructions": "Cerrar la entrega de miembro inferior según la consigna real: completar, revisar y preparar. Repaso breve de errores; no dejar contenidos nuevos grandes para este día.",
+      "material_refs": [],
+      "needs_content_review": false,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-11-03_2",
+      "date": "2026-11-03",
+      "order": 2,
+      "subject_id": "biologia",
+      "label": "Biologia",
+      "duration_minutes": 90,
+      "instructions": "Simulacro práctico de Biología: reconocimiento, procedimientos y preguntas sin apuntes. Corregir los errores antes de volver a intentar; alcance del práctico por confirmar.",
+      "material_refs": [],
+      "needs_content_review": true,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-11-03_3",
+      "date": "2026-11-03",
+      "order": 3,
+      "subject_id": "histologia",
+      "label": "Histologia",
+      "duration_minutes": 90,
+      "instructions": "Histología · Sistema respiratorio. Estudiar estructura y función; cerrar reconociendo imágenes sin rótulos. Repasar 10–15 min los preparados de 1, 3 y 7 días antes. Secuencia provisional hasta confirmar programa y alcance.",
+      "material_refs": [],
+      "needs_content_review": true,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-11-04_1",
+      "date": "2026-11-04",
+      "order": 1,
+      "subject_id": "biologia",
+      "label": "Biologia",
+      "duration_minutes": 60,
+      "instructions": "Simulacro práctico de Biología: reconocimiento, procedimientos y preguntas sin apuntes. Corregir los errores antes de volver a intentar; alcance del práctico por confirmar.",
+      "material_refs": [],
+      "needs_content_review": true,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-11-04_2",
+      "date": "2026-11-04",
+      "order": 2,
+      "subject_id": "biologia",
+      "label": "Biologia",
+      "duration_minutes": 60,
+      "instructions": "Simulacro práctico de Biología: reconocimiento, procedimientos y preguntas sin apuntes. Corregir los errores antes de volver a intentar; alcance del práctico por confirmar.",
+      "material_refs": [],
+      "needs_content_review": true,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-11-04_3",
+      "date": "2026-11-04",
+      "order": 3,
+      "subject_id": "histologia",
+      "label": "Histologia",
+      "duration_minutes": 60,
+      "instructions": "Histología · Sistema digestivo I. Estudiar estructura y función; cerrar reconociendo imágenes sin rótulos. Repasar 10–15 min los preparados de 1, 3 y 7 días antes. Secuencia provisional hasta confirmar programa y alcance.",
+      "material_refs": [],
+      "needs_content_review": true,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-11-05_1",
+      "date": "2026-11-05",
+      "order": 1,
+      "subject_id": "histologia",
+      "label": "Histologia",
+      "duration_minutes": 60,
+      "instructions": "Histología · Sistema digestivo II. Estudiar estructura y función; cerrar reconociendo imágenes sin rótulos. Repasar 10–15 min los preparados de 1, 3 y 7 días antes. Secuencia provisional hasta confirmar programa y alcance.",
+      "material_refs": [],
+      "needs_content_review": true,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-11-05_2",
+      "date": "2026-11-05",
+      "order": 2,
+      "subject_id": "anatomia",
+      "label": "Anatomia",
+      "duration_minutes": 60,
+      "instructions": "Primera vuelta · Bolilla 4: • Hueso: Vertebras cervicales; articulación: Codo; • Musculo: músculos glúteos • Organo: Hígado • Axila: Limites y contenido Neuroanatomía • Meninges. Identificar estructuras y explicar cada apartado sin apuntes. Últimos 15 min: errores de la sesión anterior. Si no se termina, priorizar los puntos débiles y usar el bloque de recuperación.",
+      "material_refs": [
+        {
+          "source_filename": "Bolillero 2026 actualizado docx_260923_135648.pdf",
+          "page_start": null,
+          "page_end": null,
+          "mapping_status": "document_identified_pages_pending",
+          "material_id": "material_1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r",
+          "drive_file_id": "1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r",
+          "view_url": "https://drive.google.com/file/d/1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r/view?usp=drivesdk"
+        }
+      ],
+      "needs_content_review": false,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-11-06_1",
+      "date": "2026-11-06",
+      "order": 1,
+      "subject_id": "anatomia",
+      "label": "Anatomia",
+      "duration_minutes": 90,
+      "instructions": "Primera vuelta · Bolilla 5: • Hueso: Esfenoides; articulación: Coxo-femoral; • Arteria: Radial • Organo: Páncreas • Conducto Inguinal Neuroanatomía • Tronco Cerebral Identificar estructuras y explicar cada apartado sin apuntes. Últimos 15 min: errores de la sesión anterior. Si no se termina, priorizar los puntos débiles y usar el bloque de recuperación.",
+      "material_refs": [
+        {
+          "source_filename": "Bolillero 2026 actualizado docx_260923_135648.pdf",
+          "page_start": null,
+          "page_end": null,
+          "mapping_status": "document_identified_pages_pending",
+          "material_id": "material_1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r",
+          "drive_file_id": "1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r",
+          "view_url": "https://drive.google.com/file/d/1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r/view?usp=drivesdk"
+        }
+      ],
+      "needs_content_review": false,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-11-06_2",
+      "date": "2026-11-06",
+      "order": 2,
+      "subject_id": "histologia",
+      "label": "Histologia",
+      "duration_minutes": 90,
+      "instructions": "Histología · Sistema digestivo III. Estudiar estructura y función; cerrar reconociendo imágenes sin rótulos. Repasar 10–15 min los preparados de 1, 3 y 7 días antes. Secuencia provisional hasta confirmar programa y alcance.",
+      "material_refs": [],
+      "needs_content_review": true,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-11-06_3",
+      "date": "2026-11-06",
+      "order": 3,
+      "subject_id": "anatomia",
+      "label": "Anatomia",
+      "duration_minutes": 90,
+      "instructions": "Primera vuelta · Bolilla 6: Aparato Osteo-artro-muscular • Hueso: Frontal; articulación: Talocrural; • Musculos de la Mano • Arteria:Cubital • Organo: Pulmón y Pleura Neuroanatomía • Cerebelo Identificar estructuras y explicar cada apartado sin apuntes. Últimos 15 min: errores de la sesión anterior. Si no se termina, priorizar los puntos débiles y usar el bloque de recuperación.",
+      "material_refs": [
+        {
+          "source_filename": "Bolillero 2026 actualizado docx_260923_135648.pdf",
+          "page_start": null,
+          "page_end": null,
+          "mapping_status": "document_identified_pages_pending",
+          "material_id": "material_1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r",
+          "drive_file_id": "1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r",
+          "view_url": "https://drive.google.com/file/d/1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r/view?usp=drivesdk"
+        }
+      ],
+      "needs_content_review": false,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-11-07_1",
+      "date": "2026-11-07",
+      "order": 1,
+      "subject_id": "histologia",
+      "label": "Histologia",
+      "duration_minutes": 90,
+      "instructions": "Histología · Sistema urinario. Estudiar estructura y función; cerrar reconociendo imágenes sin rótulos. Repasar 10–15 min los preparados de 1, 3 y 7 días antes. Secuencia provisional hasta confirmar programa y alcance.",
+      "material_refs": [],
+      "needs_content_review": true,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-11-07_2",
+      "date": "2026-11-07",
+      "order": 2,
+      "subject_id": "anatomia",
+      "label": "Anatomia",
+      "duration_minutes": 90,
+      "instructions": "Primera vuelta · Bolilla 7: • Hueso: Humero ; articulación: Temporomandibular; • Musculo: Región posterior del muslo • Organo: Útero • Plexo Braquial Neuroanatomía • Sistema Nervioso Central (Generalidades). Identificar estructuras y explicar cada apartado sin apuntes. Últimos 15 min: errores de la sesión anterior. Si no se termina, priorizar los puntos débiles y usar el bloque de recuperación.",
+      "material_refs": [
+        {
+          "source_filename": "Bolillero 2026 actualizado docx_260923_135648.pdf",
+          "page_start": null,
+          "page_end": null,
+          "mapping_status": "document_identified_pages_pending",
+          "material_id": "material_1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r",
+          "drive_file_id": "1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r",
+          "view_url": "https://drive.google.com/file/d/1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r/view?usp=drivesdk"
+        }
+      ],
+      "needs_content_review": false,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-11-07_3",
+      "date": "2026-11-07",
+      "order": 3,
+      "subject_id": "histologia",
+      "label": "Histologia",
+      "duration_minutes": 90,
+      "instructions": "Histología · Sistema endocrino. Estudiar estructura y función; cerrar reconociendo imágenes sin rótulos. Repasar 10–15 min los preparados de 1, 3 y 7 días antes. Secuencia provisional hasta confirmar programa y alcance.",
+      "material_refs": [],
+      "needs_content_review": true,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-11-08_1",
+      "date": "2026-11-08",
+      "order": 1,
+      "subject_id": "anatomia",
+      "label": "Anatomia",
+      "duration_minutes": 60,
+      "instructions": "Primera vuelta · Bolilla 8: • Hueso: Esternón ; articulación: Radiocarpiana; • Musculo: Infrahioideos • Organo: Arbol Bronquial • Anillo Femoral (crural) Neuroanatomía • Sistema Nervioso Periferico Identificar estructuras y explicar cada apartado sin apuntes. Últimos 15 min: errores de la sesión anterior. Si no se termina, priorizar los puntos débiles y usar el bloque de recuperación.",
+      "material_refs": [
+        {
+          "source_filename": "Bolillero 2026 actualizado docx_260923_135648.pdf",
+          "page_start": null,
+          "page_end": null,
+          "mapping_status": "document_identified_pages_pending",
+          "material_id": "material_1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r",
+          "drive_file_id": "1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r",
+          "view_url": "https://drive.google.com/file/d/1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r/view?usp=drivesdk"
+        }
+      ],
+      "needs_content_review": false,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-11-08_2",
+      "date": "2026-11-08",
+      "order": 2,
+      "subject_id": "histologia",
+      "label": "Histologia",
+      "duration_minutes": 60,
+      "instructions": "Histología · Sistema tegumentario. Estudiar estructura y función; cerrar reconociendo imágenes sin rótulos. Repasar 10–15 min los preparados de 1, 3 y 7 días antes. Secuencia provisional hasta confirmar programa y alcance.",
+      "material_refs": [],
+      "needs_content_review": true,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-11-09_1",
+      "date": "2026-11-09",
+      "order": 1,
+      "subject_id": "histologia",
+      "label": "Histologia",
+      "duration_minutes": 90,
+      "instructions": "Histología · Sistema genital masculino. Estudiar estructura y función; cerrar reconociendo imágenes sin rótulos. Repasar 10–15 min los preparados de 1, 3 y 7 días antes. Secuencia provisional hasta confirmar programa y alcance.",
+      "material_refs": [],
+      "needs_content_review": true,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-11-09_2",
+      "date": "2026-11-09",
+      "order": 2,
+      "subject_id": "anatomia",
+      "label": "Anatomia",
+      "duration_minutes": 90,
+      "instructions": "Primera vuelta · Bolilla 9: • Hueso: Coxal ; articulación: radiocarpiana. • Musculo: Masticadores • Organo: Corazón configuracion interna • Plexo Sacro Neuroanatomía Pares Craneales 3,5 Identificar estructuras y explicar cada apartado sin apuntes. Últimos 15 min: errores de la sesión anterior. Si no se termina, priorizar los puntos débiles y usar el bloque de recuperación.",
+      "material_refs": [
+        {
+          "source_filename": "Bolillero 2026 actualizado docx_260923_135648.pdf",
+          "page_start": null,
+          "page_end": null,
+          "mapping_status": "document_identified_pages_pending",
+          "material_id": "material_1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r",
+          "drive_file_id": "1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r",
+          "view_url": "https://drive.google.com/file/d/1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r/view?usp=drivesdk"
+        }
+      ],
+      "needs_content_review": false,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-11-09_3",
+      "date": "2026-11-09",
+      "order": 3,
+      "subject_id": "histologia",
+      "label": "Histologia",
+      "duration_minutes": 90,
+      "instructions": "Histología · Sistema genital femenino. Estudiar estructura y función; cerrar reconociendo imágenes sin rótulos. Repasar 10–15 min los preparados de 1, 3 y 7 días antes. Secuencia provisional hasta confirmar programa y alcance.",
+      "material_refs": [],
+      "needs_content_review": true,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-11-10_1",
+      "date": "2026-11-10",
+      "order": 1,
+      "subject_id": "anatomia",
+      "label": "Anatomia",
+      "duration_minutes": 90,
+      "instructions": "Primera vuelta · Bolilla 10: • Hueso: Temporal; articulación: Codo; • Musculo: Región posterior de la pierna • Organo: Uretra Masculino y Femenino • Arteria Femoral Neuroanatomía Pares Craneales: 1,10. Identificar estructuras y explicar cada apartado sin apuntes. Últimos 15 min: errores de la sesión anterior. Si no se termina, priorizar los puntos débiles y usar el bloque de recuperación.",
+      "material_refs": [
+        {
+          "source_filename": "Bolillero 2026 actualizado docx_260923_135648.pdf",
+          "page_start": null,
+          "page_end": null,
+          "mapping_status": "document_identified_pages_pending",
+          "material_id": "material_1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r",
+          "drive_file_id": "1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r",
+          "view_url": "https://drive.google.com/file/d/1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r/view?usp=drivesdk"
+        }
+      ],
+      "needs_content_review": false,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-11-10_2",
+      "date": "2026-11-10",
+      "order": 2,
+      "subject_id": "histologia",
+      "label": "Histologia",
+      "duration_minutes": 90,
+      "instructions": "Histología · Ojo. Estudiar estructura y función; cerrar reconociendo imágenes sin rótulos. Repasar 10–15 min los preparados de 1, 3 y 7 días antes. Secuencia provisional hasta confirmar programa y alcance.",
+      "material_refs": [],
+      "needs_content_review": true,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-11-10_3",
+      "date": "2026-11-10",
+      "order": 3,
+      "subject_id": "anatomia",
+      "label": "Anatomia",
+      "duration_minutes": 90,
+      "instructions": "Primera vuelta · Bolilla 11: • Hueso: Maxilar; • Articulación: Glenohumeral; • Musculo: Pelvitrocantereos • Organo: Vías Biliares y Bazo Neuroanatomía Pares Craneales 6,10 Identificar estructuras y explicar cada apartado sin apuntes. Últimos 15 min: errores de la sesión anterior. Si no se termina, priorizar los puntos débiles y usar el bloque de recuperación.",
+      "material_refs": [
+        {
+          "source_filename": "Bolillero 2026 actualizado docx_260923_135648.pdf",
+          "page_start": null,
+          "page_end": null,
+          "mapping_status": "document_identified_pages_pending",
+          "material_id": "material_1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r",
+          "drive_file_id": "1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r",
+          "view_url": "https://drive.google.com/file/d/1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r/view?usp=drivesdk"
+        }
+      ],
+      "needs_content_review": false,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-11-11_1",
+      "date": "2026-11-11",
+      "order": 1,
+      "subject_id": "histologia",
+      "label": "Histologia",
+      "duration_minutes": 90,
+      "instructions": "Histología · Histología 1: dividir el resumen en unidades de tejidos y comenzar la primera. Estudiar estructura y función; cerrar reconociendo imágenes sin rótulos. Repasar 10–15 min los preparados de 1, 3 y 7 días antes. Secuencia provisional hasta confirmar programa y alcance.",
+      "material_refs": [],
+      "needs_content_review": true,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-11-11_2",
+      "date": "2026-11-11",
+      "order": 2,
+      "subject_id": "anatomia",
+      "label": "Anatomia",
+      "duration_minutes": 90,
+      "instructions": "Primera vuelta · Bolilla 12: • Hueso: Base del craneo Exocraneo • Musculo: Anchos del abdomen • Organo: Glándula Mamaria • Fosa Poplítea Neuroanatomía • Meninges. Identificar estructuras y explicar cada apartado sin apuntes. Últimos 15 min: errores de la sesión anterior. Si no se termina, priorizar los puntos débiles y usar el bloque de recuperación.",
+      "material_refs": [
+        {
+          "source_filename": "Bolillero 2026 actualizado docx_260923_135648.pdf",
+          "page_start": null,
+          "page_end": null,
+          "mapping_status": "document_identified_pages_pending",
+          "material_id": "material_1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r",
+          "drive_file_id": "1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r",
+          "view_url": "https://drive.google.com/file/d/1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r/view?usp=drivesdk"
+        }
+      ],
+      "needs_content_review": false,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-11-11_3",
+      "date": "2026-11-11",
+      "order": 3,
+      "subject_id": "histologia",
+      "label": "Histologia",
+      "duration_minutes": 90,
+      "instructions": "Histología · Histología 1: continuar las unidades pendientes de tejidos. Estudiar estructura y función; cerrar reconociendo imágenes sin rótulos. Repasar 10–15 min los preparados de 1, 3 y 7 días antes. Secuencia provisional hasta confirmar programa y alcance.",
+      "material_refs": [],
+      "needs_content_review": true,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-11-12_1",
+      "date": "2026-11-12",
+      "order": 1,
+      "subject_id": "anatomia",
+      "label": "Anatomia",
+      "duration_minutes": 90,
+      "instructions": "Primera vuelta · Bolilla 13: • Hueso: Calcáneo y Astrágalo; articulación Temporomandibular • Musculo: Cutáneos de la Cara • Organo: Intestino Grueso • Cavidad Peritoneal (dependencias del peritoneo) Neuroanatomía Pares Craneales: 7, 2 Identificar estructuras y explicar cada apartado sin apuntes. Últimos 15 min: errores de la sesión anterior. Si no se termina, priorizar los puntos débiles y usar el bloque de recuperación.",
+      "material_refs": [
+        {
+          "source_filename": "Bolillero 2026 actualizado docx_260923_135648.pdf",
+          "page_start": null,
+          "page_end": null,
+          "mapping_status": "document_identified_pages_pending",
+          "material_id": "material_1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r",
+          "drive_file_id": "1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r",
+          "view_url": "https://drive.google.com/file/d/1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r/view?usp=drivesdk"
+        }
+      ],
+      "needs_content_review": false,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-11-12_2",
+      "date": "2026-11-12",
+      "order": 2,
+      "subject_id": "histologia",
+      "label": "Histologia",
+      "duration_minutes": 90,
+      "instructions": "Histología · Sistema cardiovascular. Estudiar estructura y función; cerrar reconociendo imágenes sin rótulos. Repasar 10–15 min los preparados de 1, 3 y 7 días antes. Secuencia provisional hasta confirmar programa y alcance.",
+      "material_refs": [],
+      "needs_content_review": true,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-11-12_3",
+      "date": "2026-11-12",
+      "order": 3,
+      "subject_id": "anatomia",
+      "label": "Anatomia",
+      "duration_minutes": 90,
+      "instructions": "Primera vuelta · Bolilla 14: • Hueso: Mandíbula ; articulación: Rodilla; • Musculo: Región anterior del brazo • Organo: Vejiga y Uréter • Nervio Mediano Neuroanatomía • Pares Craneales: 4,8 Identificar estructuras y explicar cada apartado sin apuntes. Últimos 15 min: errores de la sesión anterior. Si no se termina, priorizar los puntos débiles y usar el bloque de recuperación.",
+      "material_refs": [
+        {
+          "source_filename": "Bolillero 2026 actualizado docx_260923_135648.pdf",
+          "page_start": null,
+          "page_end": null,
+          "mapping_status": "document_identified_pages_pending",
+          "material_id": "material_1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r",
+          "drive_file_id": "1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r",
+          "view_url": "https://drive.google.com/file/d/1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r/view?usp=drivesdk"
+        }
+      ],
+      "needs_content_review": false,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-11-13_1",
+      "date": "2026-11-13",
+      "order": 1,
+      "subject_id": "histologia",
+      "label": "Histologia",
+      "duration_minutes": 90,
+      "instructions": "Histología práctica · Sistema microvascular. Reconocer preparados sin rótulos, justificar con rasgos y comparar diagnósticos parecidos; simular con tiempo. Recuperar también imágenes de los sistemas estudiados antes.",
+      "material_refs": [],
+      "needs_content_review": true,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-11-13_2",
+      "date": "2026-11-13",
+      "order": 2,
+      "subject_id": "histologia",
+      "label": "Histologia",
+      "duration_minutes": 90,
+      "instructions": "Histología práctica · Sistema linfático e inmunidad. Reconocer preparados sin rótulos, justificar con rasgos y comparar diagnósticos parecidos; simular con tiempo. Recuperar también imágenes de los sistemas estudiados antes.",
+      "material_refs": [],
+      "needs_content_review": true,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-11-13_3",
+      "date": "2026-11-13",
+      "order": 3,
+      "subject_id": "anatomia",
+      "label": "Anatomia",
+      "duration_minutes": 90,
+      "instructions": "Primera vuelta · Bolilla 15: • Hueso: clavicula ; articulación: Coxofemoral; • Musculo: Región posterior del antebrazo • Organo: Glándulas Salivares Mayores (Parotida-submandibular-sublingual) • Corazón configuracion Externa vasularización. Neuroanatomía Pares Craneales: 5,9 Identificar estructuras y explicar cada apartado sin apuntes. Últimos 15 min: errores de la sesión anterior. Si no se termina, priorizar los puntos débiles y usar el bloque de recuperación.",
+      "material_refs": [
+        {
+          "source_filename": "Bolillero 2026 actualizado docx_260923_135648.pdf",
+          "page_start": null,
+          "page_end": null,
+          "mapping_status": "document_identified_pages_pending",
+          "material_id": "material_1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r",
+          "drive_file_id": "1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r",
+          "view_url": "https://drive.google.com/file/d/1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r/view?usp=drivesdk"
+        }
+      ],
+      "needs_content_review": false,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-11-14_1",
+      "date": "2026-11-14",
+      "order": 1,
+      "subject_id": "histologia",
+      "label": "Histologia",
+      "duration_minutes": 90,
+      "instructions": "Histología práctica · Sistema respiratorio. Reconocer preparados sin rótulos, justificar con rasgos y comparar diagnósticos parecidos; simular con tiempo. Recuperar también imágenes de los sistemas estudiados antes.",
+      "material_refs": [],
+      "needs_content_review": true,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-11-14_2",
+      "date": "2026-11-14",
+      "order": 2,
+      "subject_id": "histologia",
+      "label": "Histologia",
+      "duration_minutes": 90,
+      "instructions": "Histología práctica · Sistema digestivo I. Reconocer preparados sin rótulos, justificar con rasgos y comparar diagnósticos parecidos; simular con tiempo. Recuperar también imágenes de los sistemas estudiados antes.",
+      "material_refs": [],
+      "needs_content_review": true,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-11-14_3",
+      "date": "2026-11-14",
+      "order": 3,
+      "subject_id": "anatomia",
+      "label": "Anatomia",
+      "duration_minutes": 90,
+      "instructions": "Primera vuelta · Bolilla 16: • Hueso: Occipital ; articulación: Temporomandibular; • Musculo: Región anterior del antebrazo • Organo: Próstata y Pene • Cavidad Orbitaria Neuroanatomía • Cerebelo Identificar estructuras y explicar cada apartado sin apuntes. Últimos 15 min: errores de la sesión anterior. Si no se termina, priorizar los puntos débiles y usar el bloque de recuperación.",
+      "material_refs": [
+        {
+          "source_filename": "Bolillero 2026 actualizado docx_260923_135648.pdf",
+          "page_start": null,
+          "page_end": null,
+          "mapping_status": "document_identified_pages_pending",
+          "material_id": "material_1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r",
+          "drive_file_id": "1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r",
+          "view_url": "https://drive.google.com/file/d/1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r/view?usp=drivesdk"
+        }
+      ],
+      "needs_content_review": false,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-11-15_1",
+      "date": "2026-11-15",
+      "order": 1,
+      "subject_id": "histologia",
+      "label": "Histologia",
+      "duration_minutes": 60,
+      "instructions": "Histología práctica · Sistema digestivo II. Reconocer preparados sin rótulos, justificar con rasgos y comparar diagnósticos parecidos; simular con tiempo. Recuperar también imágenes de los sistemas estudiados antes.",
+      "material_refs": [],
+      "needs_content_review": true,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-11-15_2",
+      "date": "2026-11-15",
+      "order": 2,
+      "subject_id": "histologia",
+      "label": "Histologia",
+      "duration_minutes": 60,
+      "instructions": "Histología práctica · Sistema digestivo III. Reconocer preparados sin rótulos, justificar con rasgos y comparar diagnósticos parecidos; simular con tiempo. Recuperar también imágenes de los sistemas estudiados antes.",
+      "material_refs": [],
+      "needs_content_review": true,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-11-16_1",
+      "date": "2026-11-16",
+      "order": 1,
+      "subject_id": "histologia",
+      "label": "Histologia",
+      "duration_minutes": 90,
+      "instructions": "Histología práctica · Sistema urinario. Reconocer preparados sin rótulos, justificar con rasgos y comparar diagnósticos parecidos; simular con tiempo. Recuperar también imágenes de los sistemas estudiados antes.",
+      "material_refs": [],
+      "needs_content_review": true,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-11-16_2",
+      "date": "2026-11-16",
+      "order": 2,
+      "subject_id": "histologia",
+      "label": "Histologia",
+      "duration_minutes": 90,
+      "instructions": "Histología práctica · Sistema endocrino. Reconocer preparados sin rótulos, justificar con rasgos y comparar diagnósticos parecidos; simular con tiempo. Recuperar también imágenes de los sistemas estudiados antes.",
+      "material_refs": [],
+      "needs_content_review": true,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-11-16_3",
+      "date": "2026-11-16",
+      "order": 3,
+      "subject_id": "anatomia",
+      "label": "Anatomia",
+      "duration_minutes": 90,
+      "instructions": "Primera vuelta · Bolilla 17: • Hueso: Sacro-Coccix ; articulación: Atlantoaxoidea; • Musculo: Deltoides-Trapecio • Organo: Esofago • Plexo Lumbar Neuroanatomía • Pares Craneales: 7 y 8 Identificar estructuras y explicar cada apartado sin apuntes. Últimos 15 min: errores de la sesión anterior. Si no se termina, priorizar los puntos débiles y usar el bloque de recuperación.",
+      "material_refs": [
+        {
+          "source_filename": "Bolillero 2026 actualizado docx_260923_135648.pdf",
+          "page_start": null,
+          "page_end": null,
+          "mapping_status": "document_identified_pages_pending",
+          "material_id": "material_1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r",
+          "drive_file_id": "1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r",
+          "view_url": "https://drive.google.com/file/d/1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r/view?usp=drivesdk"
+        }
+      ],
+      "needs_content_review": false,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-11-17_1",
+      "date": "2026-11-17",
+      "order": 1,
+      "subject_id": "histologia",
+      "label": "Histologia",
+      "duration_minutes": 90,
+      "instructions": "Histología práctica · Sistema tegumentario. Reconocer preparados sin rótulos, justificar con rasgos y comparar diagnósticos parecidos; simular con tiempo. Recuperar también imágenes de los sistemas estudiados antes.",
+      "material_refs": [],
+      "needs_content_review": true,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-11-17_2",
+      "date": "2026-11-17",
+      "order": 2,
+      "subject_id": "histologia",
+      "label": "Histologia",
+      "duration_minutes": 90,
+      "instructions": "Histología práctica · Sistema genital masculino. Reconocer preparados sin rótulos, justificar con rasgos y comparar diagnósticos parecidos; simular con tiempo. Recuperar también imágenes de los sistemas estudiados antes.",
+      "material_refs": [],
+      "needs_content_review": true,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-11-17_3",
+      "date": "2026-11-17",
+      "order": 3,
+      "subject_id": "anatomia",
+      "label": "Anatomia",
+      "duration_minutes": 90,
+      "instructions": "Primera vuelta · Bolilla 18: • Hueso: Peroné y Rotula; articulación: Radiocarpiana; • Musculo: Suprahioideos • Organo: Pericardio • Plexo Celiaco Neuroanatomía • Tronco Cerebral Identificar estructuras y explicar cada apartado sin apuntes. Últimos 15 min: errores de la sesión anterior. Si no se termina, priorizar los puntos débiles y usar el bloque de recuperación.",
+      "material_refs": [
+        {
+          "source_filename": "Bolillero 2026 actualizado docx_260923_135648.pdf",
+          "page_start": null,
+          "page_end": null,
+          "mapping_status": "document_identified_pages_pending",
+          "material_id": "material_1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r",
+          "drive_file_id": "1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r",
+          "view_url": "https://drive.google.com/file/d/1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r/view?usp=drivesdk"
+        }
+      ],
+      "needs_content_review": false,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-11-18_1",
+      "date": "2026-11-18",
+      "order": 1,
+      "subject_id": "anatomia",
+      "label": "Anatomia",
+      "duration_minutes": 60,
+      "instructions": "Primera vuelta · Bolilla 19: • Hueso: Escapula ; articulación: Talocrural; • Musculo: Región medial del muslo • Organo: Estomago • Circulo arterial del Codo Neuroanatomía • Cerebro Configuracion Interna. Identificar estructuras y explicar cada apartado sin apuntes. Últimos 15 min: errores de la sesión anterior. Si no se termina, priorizar los puntos débiles y usar el bloque de recuperación.",
+      "material_refs": [
+        {
+          "source_filename": "Bolillero 2026 actualizado docx_260923_135648.pdf",
+          "page_start": null,
+          "page_end": null,
+          "mapping_status": "document_identified_pages_pending",
+          "material_id": "material_1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r",
+          "drive_file_id": "1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r",
+          "view_url": "https://drive.google.com/file/d/1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r/view?usp=drivesdk"
+        }
+      ],
+      "needs_content_review": false,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-11-18_2",
+      "date": "2026-11-18",
+      "order": 2,
+      "subject_id": "histologia",
+      "label": "Histologia",
+      "duration_minutes": 60,
+      "instructions": "Histología · Sistema genital femenino. Estudiar estructura y función; cerrar reconociendo imágenes sin rótulos. Repasar 10–15 min los preparados de 1, 3 y 7 días antes. Secuencia provisional hasta confirmar programa y alcance.",
+      "material_refs": [],
+      "needs_content_review": true,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-11-19_1",
+      "date": "2026-11-19",
+      "order": 1,
+      "subject_id": "anatomia",
+      "label": "Anatomia",
+      "duration_minutes": 90,
+      "instructions": "Primera vuelta · Bolilla 20: • Hueso: Clavícula ; articulación: Temporomandibular; • Musculo: Pectorales • Organo: Recto • Tunel Carpiano y Canal de Guyon Neuroanatomía • Pares Craneales 3 y 6 Identificar estructuras y explicar cada apartado sin apuntes. Últimos 15 min: errores de la sesión anterior. Si no se termina, priorizar los puntos débiles y usar el bloque de recuperación.",
+      "material_refs": [
+        {
+          "source_filename": "Bolillero 2026 actualizado docx_260923_135648.pdf",
+          "page_start": null,
+          "page_end": null,
+          "mapping_status": "document_identified_pages_pending",
+          "material_id": "material_1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r",
+          "drive_file_id": "1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r",
+          "view_url": "https://drive.google.com/file/d/1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r/view?usp=drivesdk"
+        }
+      ],
+      "needs_content_review": false,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-11-19_2",
+      "date": "2026-11-19",
+      "order": 2,
+      "subject_id": "anatomia",
+      "label": "Anatomia",
+      "duration_minutes": 90,
+      "instructions": "Primera vuelta · Bolilla 21: • Hueso: Maxilar ; articulación: Codo; • Musculo: Intercostales • Organo: Laringe • Cavidad Nasal Neuroanatomía • Pares Craneales: 9, 11 Identificar estructuras y explicar cada apartado sin apuntes. Últimos 15 min: errores de la sesión anterior. Si no se termina, priorizar los puntos débiles y usar el bloque de recuperación.",
+      "material_refs": [
+        {
+          "source_filename": "Bolillero 2026 actualizado docx_260923_135648.pdf",
+          "page_start": null,
+          "page_end": null,
+          "mapping_status": "document_identified_pages_pending",
+          "material_id": "material_1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r",
+          "drive_file_id": "1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r",
+          "view_url": "https://drive.google.com/file/d/1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r/view?usp=drivesdk"
+        }
+      ],
+      "needs_content_review": false,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-11-19_3",
+      "date": "2026-11-19",
+      "order": 3,
+      "subject_id": "histologia",
+      "label": "Histologia",
+      "duration_minutes": 90,
+      "instructions": "Histología · Ojo. Estudiar estructura y función; cerrar reconociendo imágenes sin rótulos. Repasar 10–15 min los preparados de 1, 3 y 7 días antes. Secuencia provisional hasta confirmar programa y alcance.",
+      "material_refs": [],
+      "needs_content_review": true,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-11-20_1",
+      "date": "2026-11-20",
+      "order": 1,
+      "subject_id": "anatomia",
+      "label": "Anatomia",
+      "duration_minutes": 90,
+      "instructions": "Primera vuelta · Bolilla 22: • Hueso: Etmoides y Vómer ; articulación: Coxofemoral; • Musculo: Escalenos ,Esternocleidomastoideo • Organo: Ovarios • Canal del Pulso y Canal de Guyon Neuroanatomía • Pares Craneales: 12,4, Identificar estructuras y explicar cada apartado sin apuntes. Últimos 15 min: errores de la sesión anterior. Si no se termina, priorizar los puntos débiles y usar el bloque de recuperación.",
+      "material_refs": [
+        {
+          "source_filename": "Bolillero 2026 actualizado docx_260923_135648.pdf",
+          "page_start": null,
+          "page_end": null,
+          "mapping_status": "document_identified_pages_pending",
+          "material_id": "material_1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r",
+          "drive_file_id": "1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r",
+          "view_url": "https://drive.google.com/file/d/1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r/view?usp=drivesdk"
+        }
+      ],
+      "needs_content_review": false,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-11-20_2",
+      "date": "2026-11-20",
+      "order": 2,
+      "subject_id": "anatomia",
+      "label": "Anatomia",
+      "duration_minutes": 90,
+      "instructions": "Primera vuelta · Bolilla 23: • Hueso: Tibia; articulación: Glenohumeral ; • Musculo: Recto del abdomen y vaina de los rectos • Organo: Escroto y Testículo • Arteria Facial Neuroanatomía • Medula Espinal. Identificar estructuras y explicar cada apartado sin apuntes. Últimos 15 min: errores de la sesión anterior. Si no se termina, priorizar los puntos débiles y usar el bloque de recuperación.",
+      "material_refs": [
+        {
+          "source_filename": "Bolillero 2026 actualizado docx_260923_135648.pdf",
+          "page_start": null,
+          "page_end": null,
+          "mapping_status": "document_identified_pages_pending",
+          "material_id": "material_1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r",
+          "drive_file_id": "1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r",
+          "view_url": "https://drive.google.com/file/d/1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r/view?usp=drivesdk"
+        }
+      ],
+      "needs_content_review": false,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-11-20_3",
+      "date": "2026-11-20",
+      "order": 3,
+      "subject_id": "histologia",
+      "label": "Histologia",
+      "duration_minutes": 90,
+      "instructions": "Histología · Histología 1: dividir el resumen en unidades de tejidos y comenzar la primera. Estudiar estructura y función; cerrar reconociendo imágenes sin rótulos. Repasar 10–15 min los preparados de 1, 3 y 7 días antes. Secuencia provisional hasta confirmar programa y alcance.",
+      "material_refs": [],
+      "needs_content_review": true,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-11-21_1",
+      "date": "2026-11-21",
+      "order": 1,
+      "subject_id": "anatomia",
+      "label": "Anatomia",
+      "duration_minutes": 90,
+      "instructions": "Primera vuelta · Bolilla 24: • Hueso: Huesos del pie (tarso-metatarso); articulación: Radiocarpiana ; • Musculo: Manguito rotador • Organo: Traquea • Celda Parotidea • Pares Craneales: 5 y 12 Identificar estructuras y explicar cada apartado sin apuntes. Últimos 15 min: errores de la sesión anterior. Si no se termina, priorizar los puntos débiles y usar el bloque de recuperación.",
+      "material_refs": [
+        {
+          "source_filename": "Bolillero 2026 actualizado docx_260923_135648.pdf",
+          "page_start": null,
+          "page_end": null,
+          "mapping_status": "document_identified_pages_pending",
+          "material_id": "material_1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r",
+          "drive_file_id": "1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r",
+          "view_url": "https://drive.google.com/file/d/1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r/view?usp=drivesdk"
+        }
+      ],
+      "needs_content_review": false,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-11-21_2",
+      "date": "2026-11-21",
+      "order": 2,
+      "subject_id": "anatomia",
+      "label": "Anatomia",
+      "duration_minutes": 90,
+      "instructions": "Primera vuelta · Bolilla 25: • Hueso: Base del craneo Exocraneo • Musculo: Dorsal Ancho y Serrato Anterior • Organo: Trompa Uterina • Espacios Axilares Neuroanatomía • Cerebro : Configuracion Externa. Identificar estructuras y explicar cada apartado sin apuntes. Últimos 15 min: errores de la sesión anterior. Si no se termina, priorizar los puntos débiles y usar el bloque de recuperación.",
+      "material_refs": [
+        {
+          "source_filename": "Bolillero 2026 actualizado docx_260923_135648.pdf",
+          "page_start": null,
+          "page_end": null,
+          "mapping_status": "document_identified_pages_pending",
+          "material_id": "material_1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r",
+          "drive_file_id": "1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r",
+          "view_url": "https://drive.google.com/file/d/1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r/view?usp=drivesdk"
+        }
+      ],
+      "needs_content_review": false,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-11-21_3",
+      "date": "2026-11-21",
+      "order": 3,
+      "subject_id": "histologia",
+      "label": "Histologia",
+      "duration_minutes": 90,
+      "instructions": "Histología · Histología 1: continuar las unidades pendientes de tejidos. Estudiar estructura y función; cerrar reconociendo imágenes sin rótulos. Repasar 10–15 min los preparados de 1, 3 y 7 días antes. Secuencia provisional hasta confirmar programa y alcance.",
+      "material_refs": [],
+      "needs_content_review": true,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-11-22_1",
+      "date": "2026-11-22",
+      "order": 1,
+      "subject_id": "anatomia",
+      "label": "Anatomia",
+      "duration_minutes": 60,
+      "instructions": "Simulacro práctico acumulado: alternar miembros, tronco, cabeza/cuello y neuroanatomía. Identificar en imágenes sin rótulos, decir relaciones y corregir los fallos. Recuperar bolillas pendientes antes de sumar ejercicios.",
+      "material_refs": [],
+      "needs_content_review": false,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-11-22_2",
+      "date": "2026-11-22",
+      "order": 2,
+      "subject_id": "anatomia",
+      "label": "Anatomia",
+      "duration_minutes": 60,
+      "instructions": "Simulacro práctico acumulado: alternar miembros, tronco, cabeza/cuello y neuroanatomía. Identificar en imágenes sin rótulos, decir relaciones y corregir los fallos. Recuperar bolillas pendientes antes de sumar ejercicios.",
+      "material_refs": [],
+      "needs_content_review": false,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-11-23_1",
+      "date": "2026-11-23",
+      "order": 1,
+      "subject_id": "anatomia",
+      "label": "Anatomia",
+      "duration_minutes": 90,
+      "instructions": "Simulacro práctico acumulado: alternar miembros, tronco, cabeza/cuello y neuroanatomía. Identificar en imágenes sin rótulos, decir relaciones y corregir los fallos. Recuperar bolillas pendientes antes de sumar ejercicios.",
+      "material_refs": [],
+      "needs_content_review": false,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-11-23_2",
+      "date": "2026-11-23",
+      "order": 2,
+      "subject_id": "anatomia",
+      "label": "Anatomia",
+      "duration_minutes": 90,
+      "instructions": "Simulacro práctico acumulado: alternar miembros, tronco, cabeza/cuello y neuroanatomía. Identificar en imágenes sin rótulos, decir relaciones y corregir los fallos. Recuperar bolillas pendientes antes de sumar ejercicios.",
+      "material_refs": [],
+      "needs_content_review": false,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-11-23_3",
+      "date": "2026-11-23",
+      "order": 3,
+      "subject_id": "histologia",
+      "label": "Histologia",
+      "duration_minutes": 90,
+      "instructions": "Histología · Sistema cardiovascular. Estudiar estructura y función; cerrar reconociendo imágenes sin rótulos. Repasar 10–15 min los preparados de 1, 3 y 7 días antes. Secuencia provisional hasta confirmar programa y alcance.",
+      "material_refs": [],
+      "needs_content_review": true,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-11-24_1",
+      "date": "2026-11-24",
+      "order": 1,
+      "subject_id": "anatomia",
+      "label": "Anatomia",
+      "duration_minutes": 90,
+      "instructions": "Simulacro práctico acumulado: alternar miembros, tronco, cabeza/cuello y neuroanatomía. Identificar en imágenes sin rótulos, decir relaciones y corregir los fallos. Recuperar bolillas pendientes antes de sumar ejercicios.",
+      "material_refs": [],
+      "needs_content_review": false,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-11-24_2",
+      "date": "2026-11-24",
+      "order": 2,
+      "subject_id": "anatomia",
+      "label": "Anatomia",
+      "duration_minutes": 90,
+      "instructions": "Simulacro práctico acumulado: alternar miembros, tronco, cabeza/cuello y neuroanatomía. Identificar en imágenes sin rótulos, decir relaciones y corregir los fallos. Recuperar bolillas pendientes antes de sumar ejercicios.",
+      "material_refs": [],
+      "needs_content_review": false,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-11-24_3",
+      "date": "2026-11-24",
+      "order": 3,
+      "subject_id": "histologia",
+      "label": "Histologia",
+      "duration_minutes": 90,
+      "instructions": "Histología · Sistema microvascular. Estudiar estructura y función; cerrar reconociendo imágenes sin rótulos. Repasar 10–15 min los preparados de 1, 3 y 7 días antes. Secuencia provisional hasta confirmar programa y alcance.",
+      "material_refs": [],
+      "needs_content_review": true,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-11-25_1",
+      "date": "2026-11-25",
+      "order": 1,
+      "subject_id": "anatomia",
+      "label": "Anatomia",
+      "duration_minutes": 60,
+      "instructions": "Después del práctico: registrar qué costó y hacer un repaso oral ligero de esas regiones para el final del 01/12.",
+      "material_refs": [],
+      "needs_content_review": false,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-11-25_2",
+      "date": "2026-11-25",
+      "order": 2,
+      "subject_id": "histologia",
+      "label": "Histologia",
+      "duration_minutes": 60,
+      "instructions": "Histología · Sistema linfático e inmunidad. Estudiar estructura y función; cerrar reconociendo imágenes sin rótulos. Repasar 10–15 min los preparados de 1, 3 y 7 días antes. Secuencia provisional hasta confirmar programa y alcance.",
+      "material_refs": [],
+      "needs_content_review": true,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-11-26_1",
+      "date": "2026-11-26",
+      "order": 1,
+      "subject_id": "anatomia",
+      "label": "Anatomia",
+      "duration_minutes": 90,
+      "instructions": "Segunda vuelta · Bolillas 1–5. Explicar los apartados en voz alta y relacionar estructuras; priorizar los errores acumulados.",
+      "material_refs": [
+        {
+          "source_filename": "Bolillero 2026 actualizado docx_260923_135648.pdf",
+          "page_start": null,
+          "page_end": null,
+          "mapping_status": "document_identified_pages_pending",
+          "material_id": "material_1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r",
+          "drive_file_id": "1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r",
+          "view_url": "https://drive.google.com/file/d/1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r/view?usp=drivesdk"
+        }
+      ],
+      "needs_content_review": false,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-11-26_2",
+      "date": "2026-11-26",
+      "order": 2,
+      "subject_id": "anatomia",
+      "label": "Anatomia",
+      "duration_minutes": 90,
+      "instructions": "Segunda vuelta · Bolillas 1–5. Sorteo oral y preguntas cruzadas de estas bolillas, sin leer; corregir y repetir. El día 30, solo consolidar y descansar.",
+      "material_refs": [
+        {
+          "source_filename": "Bolillero 2026 actualizado docx_260923_135648.pdf",
+          "page_start": null,
+          "page_end": null,
+          "mapping_status": "document_identified_pages_pending",
+          "material_id": "material_1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r",
+          "drive_file_id": "1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r",
+          "view_url": "https://drive.google.com/file/d/1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r/view?usp=drivesdk"
+        }
+      ],
+      "needs_content_review": false,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-11-26_3",
+      "date": "2026-11-26",
+      "order": 3,
+      "subject_id": "histologia",
+      "label": "Histologia",
+      "duration_minutes": 90,
+      "instructions": "Histología · Sistema respiratorio. Estudiar estructura y función; cerrar reconociendo imágenes sin rótulos. Repasar 10–15 min los preparados de 1, 3 y 7 días antes. Secuencia provisional hasta confirmar programa y alcance.",
+      "material_refs": [],
+      "needs_content_review": true,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-11-27_1",
+      "date": "2026-11-27",
+      "order": 1,
+      "subject_id": "anatomia",
+      "label": "Anatomia",
+      "duration_minutes": 90,
+      "instructions": "Segunda vuelta · Bolillas 6–10. Explicar los apartados en voz alta y relacionar estructuras; priorizar los errores acumulados.",
+      "material_refs": [
+        {
+          "source_filename": "Bolillero 2026 actualizado docx_260923_135648.pdf",
+          "page_start": null,
+          "page_end": null,
+          "mapping_status": "document_identified_pages_pending",
+          "material_id": "material_1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r",
+          "drive_file_id": "1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r",
+          "view_url": "https://drive.google.com/file/d/1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r/view?usp=drivesdk"
+        }
+      ],
+      "needs_content_review": false,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-11-27_2",
+      "date": "2026-11-27",
+      "order": 2,
+      "subject_id": "anatomia",
+      "label": "Anatomia",
+      "duration_minutes": 90,
+      "instructions": "Segunda vuelta · Bolillas 6–10. Sorteo oral y preguntas cruzadas de estas bolillas, sin leer; corregir y repetir. El día 30, solo consolidar y descansar.",
+      "material_refs": [
+        {
+          "source_filename": "Bolillero 2026 actualizado docx_260923_135648.pdf",
+          "page_start": null,
+          "page_end": null,
+          "mapping_status": "document_identified_pages_pending",
+          "material_id": "material_1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r",
+          "drive_file_id": "1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r",
+          "view_url": "https://drive.google.com/file/d/1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r/view?usp=drivesdk"
+        }
+      ],
+      "needs_content_review": false,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-11-27_3",
+      "date": "2026-11-27",
+      "order": 3,
+      "subject_id": "histologia",
+      "label": "Histologia",
+      "duration_minutes": 90,
+      "instructions": "Histología · Sistema digestivo I. Estudiar estructura y función; cerrar reconociendo imágenes sin rótulos. Repasar 10–15 min los preparados de 1, 3 y 7 días antes. Secuencia provisional hasta confirmar programa y alcance.",
+      "material_refs": [],
+      "needs_content_review": true,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-11-28_1",
+      "date": "2026-11-28",
+      "order": 1,
+      "subject_id": "anatomia",
+      "label": "Anatomia",
+      "duration_minutes": 90,
+      "instructions": "Segunda vuelta · Bolillas 11–15. Explicar los apartados en voz alta y relacionar estructuras; priorizar los errores acumulados.",
+      "material_refs": [
+        {
+          "source_filename": "Bolillero 2026 actualizado docx_260923_135648.pdf",
+          "page_start": null,
+          "page_end": null,
+          "mapping_status": "document_identified_pages_pending",
+          "material_id": "material_1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r",
+          "drive_file_id": "1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r",
+          "view_url": "https://drive.google.com/file/d/1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r/view?usp=drivesdk"
+        }
+      ],
+      "needs_content_review": false,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-11-28_2",
+      "date": "2026-11-28",
+      "order": 2,
+      "subject_id": "anatomia",
+      "label": "Anatomia",
+      "duration_minutes": 90,
+      "instructions": "Segunda vuelta · Bolillas 11–15. Sorteo oral y preguntas cruzadas de estas bolillas, sin leer; corregir y repetir. El día 30, solo consolidar y descansar.",
+      "material_refs": [
+        {
+          "source_filename": "Bolillero 2026 actualizado docx_260923_135648.pdf",
+          "page_start": null,
+          "page_end": null,
+          "mapping_status": "document_identified_pages_pending",
+          "material_id": "material_1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r",
+          "drive_file_id": "1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r",
+          "view_url": "https://drive.google.com/file/d/1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r/view?usp=drivesdk"
+        }
+      ],
+      "needs_content_review": false,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-11-28_3",
+      "date": "2026-11-28",
+      "order": 3,
+      "subject_id": "histologia",
+      "label": "Histologia",
+      "duration_minutes": 90,
+      "instructions": "Histología · Sistema digestivo II. Estudiar estructura y función; cerrar reconociendo imágenes sin rótulos. Repasar 10–15 min los preparados de 1, 3 y 7 días antes. Secuencia provisional hasta confirmar programa y alcance.",
+      "material_refs": [],
+      "needs_content_review": true,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-11-29_1",
+      "date": "2026-11-29",
+      "order": 1,
+      "subject_id": "anatomia",
+      "label": "Anatomia",
+      "duration_minutes": 60,
+      "instructions": "Segunda vuelta · Bolillas 16–20. Explicar los apartados en voz alta y relacionar estructuras; priorizar los errores acumulados.",
+      "material_refs": [
+        {
+          "source_filename": "Bolillero 2026 actualizado docx_260923_135648.pdf",
+          "page_start": null,
+          "page_end": null,
+          "mapping_status": "document_identified_pages_pending",
+          "material_id": "material_1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r",
+          "drive_file_id": "1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r",
+          "view_url": "https://drive.google.com/file/d/1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r/view?usp=drivesdk"
+        }
+      ],
+      "needs_content_review": false,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-11-29_2",
+      "date": "2026-11-29",
+      "order": 2,
+      "subject_id": "anatomia",
+      "label": "Anatomia",
+      "duration_minutes": 60,
+      "instructions": "Segunda vuelta · Bolillas 16–20. Sorteo oral y preguntas cruzadas de estas bolillas, sin leer; corregir y repetir. El día 30, solo consolidar y descansar.",
+      "material_refs": [
+        {
+          "source_filename": "Bolillero 2026 actualizado docx_260923_135648.pdf",
+          "page_start": null,
+          "page_end": null,
+          "mapping_status": "document_identified_pages_pending",
+          "material_id": "material_1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r",
+          "drive_file_id": "1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r",
+          "view_url": "https://drive.google.com/file/d/1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r/view?usp=drivesdk"
+        }
+      ],
+      "needs_content_review": false,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-11-30_1",
+      "date": "2026-11-30",
+      "order": 1,
+      "subject_id": "anatomia",
+      "label": "Anatomia",
+      "duration_minutes": 90,
+      "instructions": "Segunda vuelta · Bolillas 21–25. Explicar los apartados en voz alta y relacionar estructuras; priorizar los errores acumulados.",
+      "material_refs": [
+        {
+          "source_filename": "Bolillero 2026 actualizado docx_260923_135648.pdf",
+          "page_start": null,
+          "page_end": null,
+          "mapping_status": "document_identified_pages_pending",
+          "material_id": "material_1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r",
+          "drive_file_id": "1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r",
+          "view_url": "https://drive.google.com/file/d/1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r/view?usp=drivesdk"
+        }
+      ],
+      "needs_content_review": false,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-11-30_2",
+      "date": "2026-11-30",
+      "order": 2,
+      "subject_id": "anatomia",
+      "label": "Anatomia",
+      "duration_minutes": 90,
+      "instructions": "Segunda vuelta · Bolillas 21–25. Sorteo oral y preguntas cruzadas de estas bolillas, sin leer; corregir y repetir. El día 30, solo consolidar y descansar.",
+      "material_refs": [
+        {
+          "source_filename": "Bolillero 2026 actualizado docx_260923_135648.pdf",
+          "page_start": null,
+          "page_end": null,
+          "mapping_status": "document_identified_pages_pending",
+          "material_id": "material_1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r",
+          "drive_file_id": "1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r",
+          "view_url": "https://drive.google.com/file/d/1gwg7WRXk2R_0UHSt7vPf1Y6E4FxXoV8r/view?usp=drivesdk"
+        }
+      ],
+      "needs_content_review": false,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-11-30_3",
+      "date": "2026-11-30",
+      "order": 3,
+      "subject_id": "histologia",
+      "label": "Histologia",
+      "duration_minutes": 90,
+      "instructions": "Histología · Sistema digestivo III. Estudiar estructura y función; cerrar reconociendo imágenes sin rótulos. Repasar 10–15 min los preparados de 1, 3 y 7 días antes. Secuencia provisional hasta confirmar programa y alcance.",
+      "material_refs": [],
+      "needs_content_review": true,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-12-01_1",
+      "date": "2026-12-01",
+      "order": 1,
+      "subject_id": "histologia",
+      "label": "Histologia",
+      "duration_minutes": 60,
+      "instructions": "Histología · Sistema urinario. Estudiar estructura y función; cerrar reconociendo imágenes sin rótulos. Repasar 10–15 min los preparados de 1, 3 y 7 días antes. Secuencia provisional hasta confirmar programa y alcance.",
+      "material_refs": [],
+      "needs_content_review": true,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-12-02_1",
+      "date": "2026-12-02",
+      "order": 1,
+      "subject_id": "histologia",
+      "label": "Histologia",
+      "duration_minutes": 90,
+      "instructions": "Histología · Sistema endocrino. Teoría: estructura, función y diferencias entre tejidos/órganos.",
+      "material_refs": [],
+      "needs_content_review": true,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-12-02_2",
+      "date": "2026-12-02",
+      "order": 2,
+      "subject_id": "histologia",
+      "label": "Histologia",
+      "duration_minutes": 90,
+      "instructions": "Histología · Sistema tegumentario. Preguntas mezcladas y explicación oral sin apuntes; revisar imágenes y errores de días anteriores.",
+      "material_refs": [],
+      "needs_content_review": true,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-12-02_3",
+      "date": "2026-12-02",
+      "order": 3,
+      "subject_id": "histologia",
+      "label": "Histologia",
+      "duration_minutes": 90,
+      "instructions": "Histología · Sistema genital masculino. Preguntas mezcladas y explicación oral sin apuntes; revisar imágenes y errores de días anteriores.",
+      "material_refs": [],
+      "needs_content_review": true,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-12-03_1",
+      "date": "2026-12-03",
+      "order": 1,
+      "subject_id": "histologia",
+      "label": "Histologia",
+      "duration_minutes": 90,
+      "instructions": "Histología · Sistema genital femenino. Teoría: estructura, función y diferencias entre tejidos/órganos.",
+      "material_refs": [],
+      "needs_content_review": true,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-12-03_2",
+      "date": "2026-12-03",
+      "order": 2,
+      "subject_id": "histologia",
+      "label": "Histologia",
+      "duration_minutes": 90,
+      "instructions": "Histología · Ojo. Preguntas mezcladas y explicación oral sin apuntes; revisar imágenes y errores de días anteriores.",
+      "material_refs": [],
+      "needs_content_review": true,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-12-03_3",
+      "date": "2026-12-03",
+      "order": 3,
+      "subject_id": "histologia",
+      "label": "Histologia",
+      "duration_minutes": 90,
+      "instructions": "Histología · Histología 1: dividir el resumen en unidades de tejidos y comenzar la primera. Preguntas mezcladas y explicación oral sin apuntes; revisar imágenes y errores de días anteriores.",
+      "material_refs": [],
+      "needs_content_review": true,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-12-04_1",
+      "date": "2026-12-04",
+      "order": 1,
+      "subject_id": "histologia",
+      "label": "Histologia",
+      "duration_minutes": 90,
+      "instructions": "Histología · Histología 1: continuar las unidades pendientes de tejidos. Teoría: estructura, función y diferencias entre tejidos/órganos.",
+      "material_refs": [],
+      "needs_content_review": true,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-12-04_2",
+      "date": "2026-12-04",
+      "order": 2,
+      "subject_id": "histologia",
+      "label": "Histologia",
+      "duration_minutes": 90,
+      "instructions": "Histología · Sistema cardiovascular. Preguntas mezcladas y explicación oral sin apuntes; revisar imágenes y errores de días anteriores.",
+      "material_refs": [],
+      "needs_content_review": true,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-12-04_3",
+      "date": "2026-12-04",
+      "order": 3,
+      "subject_id": "histologia",
+      "label": "Histologia",
+      "duration_minutes": 90,
+      "instructions": "Histología · Sistema microvascular. Preguntas mezcladas y explicación oral sin apuntes; revisar imágenes y errores de días anteriores.",
+      "material_refs": [],
+      "needs_content_review": true,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-12-05_1",
+      "date": "2026-12-05",
+      "order": 1,
+      "subject_id": "histologia",
+      "label": "Histologia",
+      "duration_minutes": 90,
+      "instructions": "Histología · Sistema linfático e inmunidad. Teoría: estructura, función y diferencias entre tejidos/órganos.",
+      "material_refs": [],
+      "needs_content_review": true,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-12-05_2",
+      "date": "2026-12-05",
+      "order": 2,
+      "subject_id": "histologia",
+      "label": "Histologia",
+      "duration_minutes": 90,
+      "instructions": "Histología · Sistema respiratorio. Preguntas mezcladas y explicación oral sin apuntes; revisar imágenes y errores de días anteriores.",
+      "material_refs": [],
+      "needs_content_review": true,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-12-05_3",
+      "date": "2026-12-05",
+      "order": 3,
+      "subject_id": "histologia",
+      "label": "Histologia",
+      "duration_minutes": 90,
+      "instructions": "Histología · Sistema digestivo I. Preguntas mezcladas y explicación oral sin apuntes; revisar imágenes y errores de días anteriores.",
+      "material_refs": [],
+      "needs_content_review": true,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-12-06_1",
+      "date": "2026-12-06",
+      "order": 1,
+      "subject_id": "histologia",
+      "label": "Histologia",
+      "duration_minutes": 60,
+      "instructions": "Histología · Sistema digestivo II. Teoría: estructura, función y diferencias entre tejidos/órganos.",
+      "material_refs": [],
+      "needs_content_review": true,
+      "needs_material_mapping": true
+    },
+    {
+      "id": "session_2026-12-06_2",
+      "date": "2026-12-06",
+      "order": 2,
+      "subject_id": "histologia",
+      "label": "Histologia",
+      "duration_minutes": 60,
+      "instructions": "Histología · Sistema digestivo III. Preguntas mezcladas y explicación oral sin apuntes; revisar imágenes y errores de días anteriores.",
+      "material_refs": [],
+      "needs_content_review": true,
+      "needs_material_mapping": true
+    }
+  ]
+}
