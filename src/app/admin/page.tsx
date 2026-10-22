@@ -1,3 +1,6 @@
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
+
 import { getAllDocuments, getAllSessions, getAllExams } from "@/lib/data";
 import { AdminPanel } from "@/components/AdminPanel";
 

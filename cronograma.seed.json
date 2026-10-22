@@ -186,10 +186,21 @@
       "subject_id": "biofisica",
       "label": "Biofisica",
       "duration_minutes": 90,
-      "instructions": "Ejercicios tipo práctico, fórmulas y corrección de errores. Carga breve por su menor dificultad; temario y ejercicios específicos pendientes de confirmar.",
-      "material_refs": [],
+      "instructions": "Biofísica práctica · pp. 25–28. Mecánica de fluidos, presión e hidrostática. Resolución de problemas resueltos y propuestos para el práctico del 26/10.",
+      "material_refs": [
+        {
+          "source_filename": "Guia_Biofisica_Examen_Medicina.pdf",
+          "page_start": 25,
+          "page_end": 28,
+          "page_basis": "physical_pdf_pages",
+          "mapping_status": "verified",
+          "material_id": "material_16FAAo3qNQN8hyFIhHovl5veRrFuQPpEZ",
+          "drive_file_id": "16FAAo3qNQN8hyFIhHovl5veRrFuQPpEZ",
+          "view_url": "https://drive.google.com/file/d/16FAAo3qNQN8hyFIhHovl5veRrFuQPpEZ/view?usp=drivesdk"
+        }
+      ],
       "needs_content_review": true,
-      "needs_material_mapping": true
+      "needs_material_mapping": false
     },
     {
       "id": "session_2026-10-22_2",
@@ -269,10 +280,21 @@
       "subject_id": "biofisica",
       "label": "Biofisica",
       "duration_minutes": 90,
-      "instructions": "Ejercicios tipo práctico, fórmulas y corrección de errores. Carga breve por su menor dificultad; temario y ejercicios específicos pendientes de confirmar.",
-      "material_refs": [],
+      "instructions": "Biofísica práctica · pp. 29–31. Tensión superficial, capilaridad, viscosidad y hemodinámica. Fórmulas aplicadas y problemas de examen.",
+      "material_refs": [
+        {
+          "source_filename": "Guia_Biofisica_Examen_Medicina.pdf",
+          "page_start": 29,
+          "page_end": 31,
+          "page_basis": "physical_pdf_pages",
+          "mapping_status": "verified",
+          "material_id": "material_16FAAo3qNQN8hyFIhHovl5veRrFuQPpEZ",
+          "drive_file_id": "16FAAo3qNQN8hyFIhHovl5veRrFuQPpEZ",
+          "view_url": "https://drive.google.com/file/d/16FAAo3qNQN8hyFIhHovl5veRrFuQPpEZ/view?usp=drivesdk"
+        }
+      ],
       "needs_content_review": true,
-      "needs_material_mapping": true
+      "needs_material_mapping": false
     },
     {
       "id": "session_2026-10-24_2",
@@ -315,10 +337,21 @@
       "subject_id": "biofisica",
       "label": "Biofisica",
       "duration_minutes": 60,
-      "instructions": "Ejercicios tipo práctico, fórmulas y corrección de errores. Carga breve por su menor dificultad; temario y ejercicios específicos pendientes de confirmar.",
-      "material_refs": [],
+      "instructions": "Biofísica práctica · pp. 32–33 (difusión, osmosis, bioelectricidad) y repaso general de problemas pp. 25–33. Simulacro previo al examen práctico de mañana.",
+      "material_refs": [
+        {
+          "source_filename": "Guia_Biofisica_Examen_Medicina.pdf",
+          "page_start": 25,
+          "page_end": 33,
+          "page_basis": "physical_pdf_pages",
+          "mapping_status": "verified",
+          "material_id": "material_16FAAo3qNQN8hyFIhHovl5veRrFuQPpEZ",
+          "drive_file_id": "16FAAo3qNQN8hyFIhHovl5veRrFuQPpEZ",
+          "view_url": "https://drive.google.com/file/d/16FAAo3qNQN8hyFIhHovl5veRrFuQPpEZ/view?usp=drivesdk"
+        }
+      ],
       "needs_content_review": true,
-      "needs_material_mapping": true
+      "needs_material_mapping": false
     },
     {
       "id": "session_2026-10-25_2",
@@ -421,10 +454,21 @@
       "subject_id": "biofisica",
       "label": "Biofisica",
       "duration_minutes": 90,
-      "instructions": "Repaso para el final: ejercicios tipo examen y conceptos que fallaron. Priorizar precisión, sin ocupar los bloques de las materias extensas.",
-      "material_refs": [],
+      "instructions": "Biofísica teórica · pp. 3–24. Repaso teórico integral de los temas fundamentales para el examen final del 02/11.",
+      "material_refs": [
+        {
+          "source_filename": "Guia_Biofisica_Examen_Medicina.pdf",
+          "page_start": 3,
+          "page_end": 24,
+          "page_basis": "physical_pdf_pages",
+          "mapping_status": "verified",
+          "material_id": "material_16FAAo3qNQN8hyFIhHovl5veRrFuQPpEZ",
+          "drive_file_id": "16FAAo3qNQN8hyFIhHovl5veRrFuQPpEZ",
+          "view_url": "https://drive.google.com/file/d/16FAAo3qNQN8hyFIhHovl5veRrFuQPpEZ/view?usp=drivesdk"
+        }
+      ],
       "needs_content_review": true,
-      "needs_material_mapping": true
+      "needs_material_mapping": false
     },
     {
       "id": "session_2026-10-28_2",
@@ -514,10 +558,21 @@
       "subject_id": "biofisica",
       "label": "Biofisica",
       "duration_minutes": 90,
-      "instructions": "Repaso para el final: ejercicios tipo examen y conceptos que fallaron. Priorizar precisión, sin ocupar los bloques de las materias extensas.",
-      "material_refs": [],
+      "instructions": "Biofísica examen · p. 34 (fórmulas clave) y pp. 35–36 (ejercicios de examen y respuestas). Entrenamiento de precisión para el final.",
+      "material_refs": [
+        {
+          "source_filename": "Guia_Biofisica_Examen_Medicina.pdf",
+          "page_start": 34,
+          "page_end": 36,
+          "page_basis": "physical_pdf_pages",
+          "mapping_status": "verified",
+          "material_id": "material_16FAAo3qNQN8hyFIhHovl5veRrFuQPpEZ",
+          "drive_file_id": "16FAAo3qNQN8hyFIhHovl5veRrFuQPpEZ",
+          "view_url": "https://drive.google.com/file/d/16FAAo3qNQN8hyFIhHovl5veRrFuQPpEZ/view?usp=drivesdk"
+        }
+      ],
       "needs_content_review": true,
-      "needs_material_mapping": true
+      "needs_material_mapping": false
     },
     {
       "id": "session_2026-10-30_2",
@@ -607,10 +662,21 @@
       "subject_id": "biofisica",
       "label": "Biofisica",
       "duration_minutes": 60,
-      "instructions": "Repaso para el final: ejercicios tipo examen y conceptos que fallaron. Priorizar precisión, sin ocupar los bloques de las materias extensas.",
-      "material_refs": [],
+      "instructions": "Biofísica simulacro final · pp. 37–40. Banco de 40 preguntas de examen y cotejo con respuestas oficiales antes del final de mañana.",
+      "material_refs": [
+        {
+          "source_filename": "Guia_Biofisica_Examen_Medicina.pdf",
+          "page_start": 37,
+          "page_end": 40,
+          "page_basis": "physical_pdf_pages",
+          "mapping_status": "verified",
+          "material_id": "material_16FAAo3qNQN8hyFIhHovl5veRrFuQPpEZ",
+          "drive_file_id": "16FAAo3qNQN8hyFIhHovl5veRrFuQPpEZ",
+          "view_url": "https://drive.google.com/file/d/16FAAo3qNQN8hyFIhHovl5veRrFuQPpEZ/view?usp=drivesdk"
+        }
+      ],
       "needs_content_review": true,
-      "needs_material_mapping": true
+      "needs_material_mapping": false
     },
     {
       "id": "session_2026-11-01_2",
@@ -794,10 +860,21 @@
       "subject_id": "histologia",
       "label": "Histologia",
       "duration_minutes": 90,
-      "instructions": "Histología · Sistema digestivo III. Estudiar estructura y función; cerrar reconociendo imágenes sin rótulos. Repasar 10–15 min los preparados de 1, 3 y 7 días antes. Secuencia provisional hasta confirmar programa y alcance.",
-      "material_refs": [],
+      "instructions": "Histología · Aparato Digestivo III (pp. 4–13 del Atlas). Preparados de hígado, lobulillos, vesícula biliar y páncreas exocrino/endocrino.",
+      "material_refs": [
+        {
+          "source_filename": "Atlas_Practico_Histologia_Yanina.pdf",
+          "page_start": 4,
+          "page_end": 13,
+          "page_basis": "physical_pdf_pages",
+          "mapping_status": "verified",
+          "material_id": "material_1ZpP5u2mVk-kVaYYi4I0qLNxbIALghkUn",
+          "drive_file_id": "1ZpP5u2mVk-kVaYYi4I0qLNxbIALghkUn",
+          "view_url": "https://drive.google.com/file/d/1ZpP5u2mVk-kVaYYi4I0qLNxbIALghkUn/view?usp=drivesdk"
+        }
+      ],
       "needs_content_review": true,
-      "needs_material_mapping": true
+      "needs_material_mapping": false
     },
     {
       "id": "session_2026-11-06_3",
@@ -828,10 +905,21 @@
       "subject_id": "histologia",
       "label": "Histologia",
       "duration_minutes": 90,
-      "instructions": "Histología · Sistema urinario. Estudiar estructura y función; cerrar reconociendo imágenes sin rótulos. Repasar 10–15 min los preparados de 1, 3 y 7 días antes. Secuencia provisional hasta confirmar programa y alcance.",
-      "material_refs": [],
+      "instructions": "Histología · Aparato Urinario (pp. 14–20 del Atlas). Cortes histológicos de riñón, glomérulos, túbulos proximales/distales y vías urinarias.",
+      "material_refs": [
+        {
+          "source_filename": "Atlas_Practico_Histologia_Yanina.pdf",
+          "page_start": 14,
+          "page_end": 20,
+          "page_basis": "physical_pdf_pages",
+          "mapping_status": "verified",
+          "material_id": "material_1ZpP5u2mVk-kVaYYi4I0qLNxbIALghkUn",
+          "drive_file_id": "1ZpP5u2mVk-kVaYYi4I0qLNxbIALghkUn",
+          "view_url": "https://drive.google.com/file/d/1ZpP5u2mVk-kVaYYi4I0qLNxbIALghkUn/view?usp=drivesdk"
+        }
+      ],
       "needs_content_review": true,
-      "needs_material_mapping": true
+      "needs_material_mapping": false
     },
     {
       "id": "session_2026-11-07_2",
@@ -862,10 +950,21 @@
       "subject_id": "histologia",
       "label": "Histologia",
       "duration_minutes": 90,
-      "instructions": "Histología · Sistema endocrino. Estudiar estructura y función; cerrar reconociendo imágenes sin rótulos. Repasar 10–15 min los preparados de 1, 3 y 7 días antes. Secuencia provisional hasta confirmar programa y alcance.",
-      "material_refs": [],
+      "instructions": "Histología · Sistema Endocrino (pp. 21–28 del Atlas). Reconocimiento de hipófisis, tiroides, paratiroides y corteza/médula suprarrenal.",
+      "material_refs": [
+        {
+          "source_filename": "Atlas_Practico_Histologia_Yanina.pdf",
+          "page_start": 21,
+          "page_end": 28,
+          "page_basis": "physical_pdf_pages",
+          "mapping_status": "verified",
+          "material_id": "material_1ZpP5u2mVk-kVaYYi4I0qLNxbIALghkUn",
+          "drive_file_id": "1ZpP5u2mVk-kVaYYi4I0qLNxbIALghkUn",
+          "view_url": "https://drive.google.com/file/d/1ZpP5u2mVk-kVaYYi4I0qLNxbIALghkUn/view?usp=drivesdk"
+        }
+      ],
       "needs_content_review": true,
-      "needs_material_mapping": true
+      "needs_material_mapping": false
     },
     {
       "id": "session_2026-11-08_1",
@@ -908,10 +1007,21 @@
       "subject_id": "histologia",
       "label": "Histologia",
       "duration_minutes": 90,
-      "instructions": "Histología · Sistema genital masculino. Estudiar estructura y función; cerrar reconociendo imágenes sin rótulos. Repasar 10–15 min los preparados de 1, 3 y 7 días antes. Secuencia provisional hasta confirmar programa y alcance.",
-      "material_refs": [],
+      "instructions": "Histología · Aparato Genital Masculino (pp. 39–45 del Atlas). Túbulos seminíferos, células de Leydig/Sertoli, epidídimo y próstata.",
+      "material_refs": [
+        {
+          "source_filename": "Atlas_Practico_Histologia_Yanina.pdf",
+          "page_start": 39,
+          "page_end": 45,
+          "page_basis": "physical_pdf_pages",
+          "mapping_status": "verified",
+          "material_id": "material_1ZpP5u2mVk-kVaYYi4I0qLNxbIALghkUn",
+          "drive_file_id": "1ZpP5u2mVk-kVaYYi4I0qLNxbIALghkUn",
+          "view_url": "https://drive.google.com/file/d/1ZpP5u2mVk-kVaYYi4I0qLNxbIALghkUn/view?usp=drivesdk"
+        }
+      ],
       "needs_content_review": true,
-      "needs_material_mapping": true
+      "needs_material_mapping": false
     },
     {
       "id": "session_2026-11-09_2",
@@ -942,10 +1052,21 @@
       "subject_id": "histologia",
       "label": "Histologia",
       "duration_minutes": 90,
-      "instructions": "Histología · Sistema genital femenino. Estudiar estructura y función; cerrar reconociendo imágenes sin rótulos. Repasar 10–15 min los preparados de 1, 3 y 7 días antes. Secuencia provisional hasta confirmar programa y alcance.",
-      "material_refs": [],
+      "instructions": "Histología · Aparato Genital Femenino (pp. 29–38 del Atlas). Folículos ováricos en distintas etapas, trompas uterinas y capas del útero.",
+      "material_refs": [
+        {
+          "source_filename": "Atlas_Practico_Histologia_Yanina.pdf",
+          "page_start": 29,
+          "page_end": 38,
+          "page_basis": "physical_pdf_pages",
+          "mapping_status": "verified",
+          "material_id": "material_1ZpP5u2mVk-kVaYYi4I0qLNxbIALghkUn",
+          "drive_file_id": "1ZpP5u2mVk-kVaYYi4I0qLNxbIALghkUn",
+          "view_url": "https://drive.google.com/file/d/1ZpP5u2mVk-kVaYYi4I0qLNxbIALghkUn/view?usp=drivesdk"
+        }
+      ],
       "needs_content_review": true,
-      "needs_material_mapping": true
+      "needs_material_mapping": false
     },
     {
       "id": "session_2026-11-10_1",
@@ -1112,10 +1233,21 @@
       "subject_id": "histologia",
       "label": "Histologia",
       "duration_minutes": 90,
-      "instructions": "Histología práctica · Sistema microvascular. Reconocer preparados sin rótulos, justificar con rasgos y comparar diagnósticos parecidos; simular con tiempo. Recuperar también imágenes de los sistemas estudiados antes.",
-      "material_refs": [],
+      "instructions": "Histología práctica · Integración y diagnóstico diferencial (pp. 46–51 del Atlas). Comparación de preparados parecidos y rasgos distintivos.",
+      "material_refs": [
+        {
+          "source_filename": "Atlas_Practico_Histologia_Yanina.pdf",
+          "page_start": 46,
+          "page_end": 51,
+          "page_basis": "physical_pdf_pages",
+          "mapping_status": "verified",
+          "material_id": "material_1ZpP5u2mVk-kVaYYi4I0qLNxbIALghkUn",
+          "drive_file_id": "1ZpP5u2mVk-kVaYYi4I0qLNxbIALghkUn",
+          "view_url": "https://drive.google.com/file/d/1ZpP5u2mVk-kVaYYi4I0qLNxbIALghkUn/view?usp=drivesdk"
+        }
+      ],
       "needs_content_review": true,
-      "needs_material_mapping": true
+      "needs_material_mapping": false
     },
     {
       "id": "session_2026-11-13_2",
@@ -1170,10 +1302,21 @@
       "subject_id": "histologia",
       "label": "Histologia",
       "duration_minutes": 90,
-      "instructions": "Histología práctica · Sistema digestivo I. Reconocer preparados sin rótulos, justificar con rasgos y comparar diagnósticos parecidos; simular con tiempo. Recuperar también imágenes de los sistemas estudiados antes.",
-      "material_refs": [],
+      "instructions": "Histología práctica · Integración y diagnósticos diferenciales (pp. 46–51 del Atlas). Consolidación antes de la segunda vuelta práctica.",
+      "material_refs": [
+        {
+          "source_filename": "Atlas_Practico_Histologia_Yanina.pdf",
+          "page_start": 46,
+          "page_end": 51,
+          "page_basis": "physical_pdf_pages",
+          "mapping_status": "verified",
+          "material_id": "material_1ZpP5u2mVk-kVaYYi4I0qLNxbIALghkUn",
+          "drive_file_id": "1ZpP5u2mVk-kVaYYi4I0qLNxbIALghkUn",
+          "view_url": "https://drive.google.com/file/d/1ZpP5u2mVk-kVaYYi4I0qLNxbIALghkUn/view?usp=drivesdk"
+        }
+      ],
       "needs_content_review": true,
-      "needs_material_mapping": true
+      "needs_material_mapping": false
     },
     {
       "id": "session_2026-11-14_3",
@@ -1216,10 +1359,21 @@
       "subject_id": "histologia",
       "label": "Histologia",
       "duration_minutes": 60,
-      "instructions": "Histología práctica · Sistema digestivo III. Reconocer preparados sin rótulos, justificar con rasgos y comparar diagnósticos parecidos; simular con tiempo. Recuperar también imágenes de los sistemas estudiados antes.",
-      "material_refs": [],
+      "instructions": "Histología práctica · Segunda vuelta: Digestivo III (pp. 4–13 del Atlas). Reconocimiento rápido de imágenes y preparados sin rótulos.",
+      "material_refs": [
+        {
+          "source_filename": "Atlas_Practico_Histologia_Yanina.pdf",
+          "page_start": 4,
+          "page_end": 13,
+          "page_basis": "physical_pdf_pages",
+          "mapping_status": "verified",
+          "material_id": "material_1ZpP5u2mVk-kVaYYi4I0qLNxbIALghkUn",
+          "drive_file_id": "1ZpP5u2mVk-kVaYYi4I0qLNxbIALghkUn",
+          "view_url": "https://drive.google.com/file/d/1ZpP5u2mVk-kVaYYi4I0qLNxbIALghkUn/view?usp=drivesdk"
+        }
+      ],
       "needs_content_review": true,
-      "needs_material_mapping": true
+      "needs_material_mapping": false
     },
     {
       "id": "session_2026-11-16_1",
@@ -1228,10 +1382,21 @@
       "subject_id": "histologia",
       "label": "Histologia",
       "duration_minutes": 90,
-      "instructions": "Histología práctica · Sistema urinario. Reconocer preparados sin rótulos, justificar con rasgos y comparar diagnósticos parecidos; simular con tiempo. Recuperar también imágenes de los sistemas estudiados antes.",
-      "material_refs": [],
+      "instructions": "Histología práctica · Segunda vuelta: Urinario (pp. 14–20 del Atlas). Diagnóstico rápido diferencial de preparados renales y vías.",
+      "material_refs": [
+        {
+          "source_filename": "Atlas_Practico_Histologia_Yanina.pdf",
+          "page_start": 14,
+          "page_end": 20,
+          "page_basis": "physical_pdf_pages",
+          "mapping_status": "verified",
+          "material_id": "material_1ZpP5u2mVk-kVaYYi4I0qLNxbIALghkUn",
+          "drive_file_id": "1ZpP5u2mVk-kVaYYi4I0qLNxbIALghkUn",
+          "view_url": "https://drive.google.com/file/d/1ZpP5u2mVk-kVaYYi4I0qLNxbIALghkUn/view?usp=drivesdk"
+        }
+      ],
       "needs_content_review": true,
-      "needs_material_mapping": true
+      "needs_material_mapping": false
     },
     {
       "id": "session_2026-11-16_2",
@@ -1240,10 +1405,21 @@
       "subject_id": "histologia",
       "label": "Histologia",
       "duration_minutes": 90,
-      "instructions": "Histología práctica · Sistema endocrino. Reconocer preparados sin rótulos, justificar con rasgos y comparar diagnósticos parecidos; simular con tiempo. Recuperar también imágenes de los sistemas estudiados antes.",
-      "material_refs": [],
+      "instructions": "Histología práctica · Segunda vuelta: Endocrino (pp. 21–28 del Atlas). Láminas de glándulas y preparados sin rótulos.",
+      "material_refs": [
+        {
+          "source_filename": "Atlas_Practico_Histologia_Yanina.pdf",
+          "page_start": 21,
+          "page_end": 28,
+          "page_basis": "physical_pdf_pages",
+          "mapping_status": "verified",
+          "material_id": "material_1ZpP5u2mVk-kVaYYi4I0qLNxbIALghkUn",
+          "drive_file_id": "1ZpP5u2mVk-kVaYYi4I0qLNxbIALghkUn",
+          "view_url": "https://drive.google.com/file/d/1ZpP5u2mVk-kVaYYi4I0qLNxbIALghkUn/view?usp=drivesdk"
+        }
+      ],
       "needs_content_review": true,
-      "needs_material_mapping": true
+      "needs_material_mapping": false
     },
     {
       "id": "session_2026-11-16_3",
@@ -1274,10 +1450,21 @@
       "subject_id": "histologia",
       "label": "Histologia",
       "duration_minutes": 90,
-      "instructions": "Histología práctica · Sistema tegumentario. Reconocer preparados sin rótulos, justificar con rasgos y comparar diagnósticos parecidos; simular con tiempo. Recuperar también imágenes de los sistemas estudiados antes.",
-      "material_refs": [],
+      "instructions": "Histología práctica · Simulacro y Autoevaluación práctica (pp. 52–54 del Atlas). Test con imágenes sin rótulos y verificación con respuestas (pp. 55–56).",
+      "material_refs": [
+        {
+          "source_filename": "Atlas_Practico_Histologia_Yanina.pdf",
+          "page_start": 52,
+          "page_end": 56,
+          "page_basis": "physical_pdf_pages",
+          "mapping_status": "verified",
+          "material_id": "material_1ZpP5u2mVk-kVaYYi4I0qLNxbIALghkUn",
+          "drive_file_id": "1ZpP5u2mVk-kVaYYi4I0qLNxbIALghkUn",
+          "view_url": "https://drive.google.com/file/d/1ZpP5u2mVk-kVaYYi4I0qLNxbIALghkUn/view?usp=drivesdk"
+        }
+      ],
       "needs_content_review": true,
-      "needs_material_mapping": true
+      "needs_material_mapping": false
     },
     {
       "id": "session_2026-11-17_2",
@@ -1286,10 +1473,21 @@
       "subject_id": "histologia",
       "label": "Histologia",
       "duration_minutes": 90,
-      "instructions": "Histología práctica · Sistema genital masculino. Reconocer preparados sin rótulos, justificar con rasgos y comparar diagnósticos parecidos; simular con tiempo. Recuperar también imágenes de los sistemas estudiados antes.",
-      "material_refs": [],
+      "instructions": "Histología práctica · Genital Masculino (pp. 39–45 del Atlas). Repaso de láminas clave y detalles diagnósticos.",
+      "material_refs": [
+        {
+          "source_filename": "Atlas_Practico_Histologia_Yanina.pdf",
+          "page_start": 39,
+          "page_end": 45,
+          "page_basis": "physical_pdf_pages",
+          "mapping_status": "verified",
+          "material_id": "material_1ZpP5u2mVk-kVaYYi4I0qLNxbIALghkUn",
+          "drive_file_id": "1ZpP5u2mVk-kVaYYi4I0qLNxbIALghkUn",
+          "view_url": "https://drive.google.com/file/d/1ZpP5u2mVk-kVaYYi4I0qLNxbIALghkUn/view?usp=drivesdk"
+        }
+      ],
       "needs_content_review": true,
-      "needs_material_mapping": true
+      "needs_material_mapping": false
     },
     {
       "id": "session_2026-11-17_3",
@@ -1342,10 +1540,21 @@
       "subject_id": "histologia",
       "label": "Histologia",
       "duration_minutes": 60,
-      "instructions": "Histología · Sistema genital femenino. Estudiar estructura y función; cerrar reconociendo imágenes sin rótulos. Repasar 10–15 min los preparados de 1, 3 y 7 días antes. Secuencia provisional hasta confirmar programa y alcance.",
-      "material_refs": [],
+      "instructions": "Histología práctica · Repaso final de preparados críticos: Genital Femenino (pp. 29–38 del Atlas) y láminas dudosas para el examen práctico.",
+      "material_refs": [
+        {
+          "source_filename": "Atlas_Practico_Histologia_Yanina.pdf",
+          "page_start": 29,
+          "page_end": 38,
+          "page_basis": "physical_pdf_pages",
+          "mapping_status": "verified",
+          "material_id": "material_1ZpP5u2mVk-kVaYYi4I0qLNxbIALghkUn",
+          "drive_file_id": "1ZpP5u2mVk-kVaYYi4I0qLNxbIALghkUn",
+          "view_url": "https://drive.google.com/file/d/1ZpP5u2mVk-kVaYYi4I0qLNxbIALghkUn/view?usp=drivesdk"
+        }
+      ],
       "needs_content_review": true,
-      "needs_material_mapping": true
+      "needs_material_mapping": false
     },
     {
       "id": "session_2026-11-19_1",

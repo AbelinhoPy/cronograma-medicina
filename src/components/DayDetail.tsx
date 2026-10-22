@@ -266,7 +266,9 @@ export function DayDetail({
                             </span>
                             {ref.page_start && ref.page_end && (
                               <span className="bg-white border border-border px-2 py-0.5 rounded text-[11px] font-bold text-slate-700">
-                                pp. {ref.page_start}–{ref.page_end}
+                                {ref.page_start === ref.page_end
+                                  ? `p. ${ref.page_start}`
+                                  : `pp. ${ref.page_start}–${ref.page_end}`}
                               </span>
                             )}
                           </div>

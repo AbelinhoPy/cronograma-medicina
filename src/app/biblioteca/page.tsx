@@ -1,3 +1,6 @@
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
+
 import { getAllDocuments } from "@/lib/data";
 import { LibraryView } from "@/components/LibraryView";
 

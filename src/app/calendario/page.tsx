@@ -1,3 +1,6 @@
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
+
 import { getAllExams, getAllSessions, getStudentProgressForUser } from "@/lib/data";
 import { CalendarView } from "@/components/CalendarView";
 

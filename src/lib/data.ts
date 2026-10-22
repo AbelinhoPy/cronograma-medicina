@@ -501,6 +501,9 @@ export async function addNewDocument(input: {
       throw new Error("Error al guardar el nuevo documento en la base de datos.");
     }
   } else {
+    if (process.env.NODE_ENV === "production" || process.env.VERCEL) {
+      throw new Error("Base de datos no disponible o no configurada en el servidor.");
+    }
     const existingIndex = inMemoryCustomDocs.findIndex((d) => d.drive_file_id === driveFileId);
     if (existingIndex >= 0) {
       inMemoryCustomDocs[existingIndex] = newDoc;

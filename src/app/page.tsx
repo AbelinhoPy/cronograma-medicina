@@ -1,3 +1,6 @@
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
+
 import { getDayPlan } from "@/lib/data";
 import { getTodayAsuncion, formatSpanishDate } from "@/lib/date-utils";
 import { DayDetail } from "@/components/DayDetail";

@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import { useRouter } from "next/navigation";
 import {
   Settings,
   Database,
@@ -25,6 +26,7 @@ export function AdminPanel({
   totalSessions,
   totalExams,
 }: AdminPanelProps) {
+  const router = useRouter();
   const [isSubmittingDoc, setIsSubmittingDoc] = useState(false);
   const [docFeedback, setDocFeedback] = useState<{ type: "success" | "error"; text: string } | null>(null);
 
@@ -70,6 +72,8 @@ export function AdminPanel({
         page_count: "1",
         notes: "",
       });
+
+      router.refresh();
     } catch (err: any) {
       setDocFeedback({
         type: "error",

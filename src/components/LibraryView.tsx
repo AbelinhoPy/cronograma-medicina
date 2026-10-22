@@ -1,6 +1,7 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import { useRouter } from "next/navigation";
 import {
   Search,
   ExternalLink,
@@ -19,7 +20,12 @@ interface LibraryViewProps {
 }
 
 export function LibraryView({ initialDocuments }: LibraryViewProps) {
+  const router = useRouter();
   const [documents, setDocuments] = useState<DriveDocument[]>(initialDocuments);
+
+  useEffect(() => {
+    setDocuments(initialDocuments);
+  }, [initialDocuments]);
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedSubject, setSelectedSubject] = useState<string>("all");
   const [hideDuplicates, setHideDuplicates] = useState(true);
@@ -93,6 +99,7 @@ export function LibraryView({ initialDocuments }: LibraryViewProps) {
 
       setSubmitSuccess("¡Resumen agregado correctamente a la biblioteca y base de datos!");
       setDocuments((prev) => [data.document, ...prev]);
+      router.refresh();
       setFormData({
         title: "",
         subject_id: "anatomia",

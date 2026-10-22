@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
+import { revalidatePath } from "next/cache";
 import { addNewDocument } from "@/lib/data";
 import { auth } from "@/auth";
 
@@ -44,6 +45,12 @@ export async function POST(request: NextRequest) {
       size_bytes: size_bytes ? Number(size_bytes) : undefined,
       notes,
     });
+
+    revalidatePath("/biblioteca");
+    revalidatePath("/admin");
+    revalidatePath("/avance");
+    revalidatePath("/calendario");
+    revalidatePath("/");
 
     return NextResponse.json({ success: true, document: doc });
   } catch (error: any) {

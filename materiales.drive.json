@@ -2,8 +2,8 @@
   "schema_version": 1,
   "root_folder_id": "1_0-8ExeG1iuGWf_UdTEhtTwD6JpTPxCa",
   "root_folder_url": "https://drive.google.com/drive/folders/1_0-8ExeG1iuGWf_UdTEhtTwD6JpTPxCa",
-  "count": 75,
-  "canonical_count": 69,
+  "count": 77,
+  "canonical_count": 71,
   "sharing": "private; no new reader permissions granted",
   "folders": {
     "": {
@@ -81,6 +81,10 @@
     "98 Duplicados exactos/02 Biología/Clases": {
       "id": "1I16jfrRKBIXpCVFY947H4oy_pfkHbuhB",
       "url": "https://drive.google.com/drive/folders/1I16jfrRKBIXpCVFY947H4oy_pfkHbuhB"
+    },
+    "05 Biofísica/Resúmenes": {
+      "id": "1MgmGAPf1bvmThgeiFl6pRujEyb5b5hW-",
+      "url": "https://drive.google.com/drive/folders/1MgmGAPf1bvmThgeiFl6pRujEyb5b5hW-"
     }
   },
   "files": [
@@ -1432,6 +1436,42 @@
       "remote_verification": "Drive metadata: name, size and folder membership matched",
       "is_duplicate": true,
       "canonical_drive_file_id": "1O01SJfP9jeb8Q5pfHu2miGk8oMOzwtIb",
+      "needs_curriculum_confirmation": false
+    },
+    {
+      "id": "material_1ZpP5u2mVk-kVaYYi4I0qLNxbIALghkUn",
+      "title": "Atlas_Practico_Histologia_Yanina.pdf",
+      "subject_id": "histologia",
+      "category_path": "03 Histología y Embriología/Resúmenes",
+      "provider": "google_drive",
+      "drive_file_id": "1ZpP5u2mVk-kVaYYi4I0qLNxbIALghkUn",
+      "view_url": "https://drive.google.com/file/d/1ZpP5u2mVk-kVaYYi4I0qLNxbIALghkUn/view?usp=drivesdk",
+      "parent_folder_id": "12R9Fr_Ouw_dWZCEewAr_MCoGV9AdAeHL",
+      "mime_type": "application/pdf",
+      "size_bytes": 47462746,
+      "page_count": 57,
+      "sha256_local": "e89ceda319d35288384db23db0af9d7a452e191a8bbf52a25f329dfe0222da7d",
+      "remote_verification": "Drive metadata: name, size and folder membership matched",
+      "is_duplicate": false,
+      "canonical_drive_file_id": null,
+      "needs_curriculum_confirmation": false
+    },
+    {
+      "id": "material_16FAAo3qNQN8hyFIhHovl5veRrFuQPpEZ",
+      "title": "Guia_Biofisica_Examen_Medicina.pdf",
+      "subject_id": "biofisica",
+      "category_path": "05 Biofísica/Resúmenes",
+      "provider": "google_drive",
+      "drive_file_id": "16FAAo3qNQN8hyFIhHovl5veRrFuQPpEZ",
+      "view_url": "https://drive.google.com/file/d/16FAAo3qNQN8hyFIhHovl5veRrFuQPpEZ/view?usp=drivesdk",
+      "parent_folder_id": "1MgmGAPf1bvmThgeiFl6pRujEyb5b5hW-",
+      "mime_type": "application/pdf",
+      "size_bytes": 201110,
+      "page_count": 43,
+      "sha256_local": "1b7801f2107e366a0425e26e5116818e2f5de8bc1c2a0568660109fe462bd2a7",
+      "remote_verification": "Drive metadata: name, size and folder membership matched",
+      "is_duplicate": false,
+      "canonical_drive_file_id": null,
       "needs_curriculum_confirmation": false
     }
   ]
