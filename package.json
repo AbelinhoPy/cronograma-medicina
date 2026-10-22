@@ -10,7 +10,8 @@
     "db:push": "drizzle-kit push",
     "db:generate": "drizzle-kit generate",
     "db:migrate": "drizzle-kit migrate",
-    "db:seed": "tsx src/scripts/seed.ts"
+    "db:seed": "tsx src/scripts/seed.ts",
+    "add-material": "tsx src/scripts/sync-material.ts"
   },
   "dependencies": {
     "@neondatabase/serverless": "^0.10.4",

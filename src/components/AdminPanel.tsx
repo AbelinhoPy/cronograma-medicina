@@ -39,10 +39,23 @@ export function AdminPanel({
     notes: "",
   });
 
+  const [linkToSession, setLinkToSession] = useState(false);
+  const [sessionDate, setSessionDate] = useState("");
+  const [sessionBlock, setSessionBlock] = useState("1");
+  const [pageRange, setPageRange] = useState("");
+
   async function handleAddSummary(e: React.FormEvent) {
     e.preventDefault();
     setIsSubmittingDoc(true);
     setDocFeedback(null);
+
+    let pageStart: number | undefined;
+    let pageEnd: number | undefined;
+    if (pageRange) {
+      const parts = pageRange.split("-").map((p) => Number(p.trim()));
+      pageStart = parts[0];
+      pageEnd = parts.length > 1 ? parts[1] : parts[0];
+    }
 
     try {
       const res = await fetch("/api/admin/documents", {
@@ -51,6 +64,10 @@ export function AdminPanel({
         body: JSON.stringify({
           ...formData,
           page_count: Number(formData.page_count) || 1,
+          session_date: linkToSession && sessionDate ? sessionDate : undefined,
+          session_block: linkToSession && sessionDate ? Number(sessionBlock) : undefined,
+          page_start: linkToSession ? pageStart : undefined,
+          page_end: linkToSession ? pageEnd : undefined,
         }),
       });
 
@@ -242,6 +259,62 @@ export function AdminPanel({
                 className="w-full p-2.5 bg-[#f7f9fc] border border-border rounded-xl text-xs text-foreground"
               />
             </div>
+          </div>
+
+          {/* Optional Direct Linking to Session */}
+          <div className="pt-3 border-t border-border">
+            <label className="flex items-center gap-2 cursor-pointer text-xs font-bold text-foreground select-none">
+              <input
+                type="checkbox"
+                checked={linkToSession}
+                onChange={(e) => setLinkToSession(e.target.checked)}
+                className="w-4 h-4 rounded text-[#2776db] focus:ring-0"
+              />
+              <span>Vincular automáticamente a una sesión del cronograma</span>
+            </label>
+
+            {linkToSession && (
+              <div className="mt-3 p-4 bg-[#f8fafc] border border-border rounded-2xl grid grid-cols-1 sm:grid-cols-3 gap-3">
+                <div>
+                  <label className="block text-[11px] font-bold text-muted-foreground mb-1">
+                    Fecha de la sesión
+                  </label>
+                  <input
+                    type="date"
+                    required={linkToSession}
+                    value={sessionDate}
+                    onChange={(e) => setSessionDate(e.target.value)}
+                    className="w-full p-2 bg-white border border-border rounded-xl text-xs text-foreground"
+                  />
+                </div>
+                <div>
+                  <label className="block text-[11px] font-bold text-muted-foreground mb-1">
+                    Bloque del día
+                  </label>
+                  <select
+                    value={sessionBlock}
+                    onChange={(e) => setSessionBlock(e.target.value)}
+                    className="w-full p-2 bg-white border border-border rounded-xl text-xs text-foreground font-semibold"
+                  >
+                    <option value="1">Bloque 1</option>
+                    <option value="2">Bloque 2</option>
+                    <option value="3">Bloque 3</option>
+                  </select>
+                </div>
+                <div>
+                  <label className="block text-[11px] font-bold text-muted-foreground mb-1">
+                    Rango de páginas (ej: 1-15 o 34)
+                  </label>
+                  <input
+                    type="text"
+                    value={pageRange}
+                    onChange={(e) => setPageRange(e.target.value)}
+                    placeholder="ej: 1-15"
+                    className="w-full p-2 bg-white border border-border rounded-xl text-xs text-foreground"
+                  />
+                </div>
+              </div>
+            )}
           </div>
 
           <button

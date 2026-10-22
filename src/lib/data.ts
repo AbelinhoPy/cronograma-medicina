@@ -551,3 +551,80 @@ export async function rescheduleSession(
 
   return { success: true, message: `Sesión reprogramada al ${newDate} (memoria)` };
 }
+
+export async function linkDocumentToSession(input: {
+  sessionId?: string;
+  sessionDate?: string;
+  sessionBlock?: number;
+  documentId: string;
+  sourceFilename: string;
+  pageStart?: number;
+  pageEnd?: number;
+  instructions?: string;
+}): Promise<boolean> {
+  if (isDbConfigured && db) {
+    try {
+      let targetId = input.sessionId;
+      if (!targetId && input.sessionDate && input.sessionBlock) {
+        const found = await db
+          .select()
+          .from(schema.sessions)
+          .where(
+            and(
+              eq(schema.sessions.date, input.sessionDate),
+              eq(schema.sessions.order, input.sessionBlock)
+            )
+          )
+          .limit(1);
+        if (found.length > 0) {
+          targetId = found[0].id;
+        }
+      }
+
+      if (!targetId) return false;
+
+      const sdocId = `sdoc_${targetId}_${input.documentId.replace("material_", "").slice(0, 8)}`;
+      await db
+        .insert(schema.sessionDocuments)
+        .values({
+          id: sdocId,
+          sessionId: targetId,
+          documentId: input.documentId,
+          sourceFilename: input.sourceFilename,
+          pageStart: input.pageStart,
+          pageEnd: input.pageEnd,
+          pageBasis: "physical_pdf_pages",
+          mappingStatus: "verified",
+        })
+        .onConflictDoUpdate({
+          target: schema.sessionDocuments.id,
+          set: {
+            documentId: input.documentId,
+            sourceFilename: input.sourceFilename,
+            pageStart: input.pageStart,
+            pageEnd: input.pageEnd,
+            mappingStatus: "verified",
+          },
+        });
+
+      if (input.instructions) {
+        await db
+          .update(schema.sessions)
+          .set({ instructions: input.instructions, needsMaterialMapping: false })
+          .where(eq(schema.sessions.id, targetId));
+      } else {
+        await db
+          .update(schema.sessions)
+          .set({ needsMaterialMapping: false })
+          .where(eq(schema.sessions.id, targetId));
+      }
+
+      return true;
+    } catch (err) {
+      console.error("Error linking doc to session:", err);
+      return false;
+    }
+  }
+  return false;
+}
+

@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { revalidatePath } from "next/cache";
-import { addNewDocument } from "@/lib/data";
+import { addNewDocument, linkDocumentToSession } from "@/lib/data";
 import { auth } from "@/auth";
 
 export async function POST(request: NextRequest) {
@@ -24,6 +24,12 @@ export async function POST(request: NextRequest) {
       page_count,
       size_bytes,
       notes,
+      session_id,
+      session_date,
+      session_block,
+      page_start,
+      page_end,
+      instructions,
     } = body;
 
     if (!title || !subject_id || !drive_url_or_id || !page_count) {
@@ -45,6 +51,19 @@ export async function POST(request: NextRequest) {
       size_bytes: size_bytes ? Number(size_bytes) : undefined,
       notes,
     });
+
+    if (session_id || (session_date && session_block)) {
+      await linkDocumentToSession({
+        sessionId: session_id,
+        sessionDate: session_date,
+        sessionBlock: session_block ? Number(session_block) : undefined,
+        documentId: doc.id,
+        sourceFilename: doc.title,
+        pageStart: page_start ? Number(page_start) : undefined,
+        pageEnd: page_end ? Number(page_end) : undefined,
+        instructions: instructions ? String(instructions) : undefined,
+      });
+    }
 
     revalidatePath("/biblioteca");
     revalidatePath("/admin");
