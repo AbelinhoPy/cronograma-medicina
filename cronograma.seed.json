@@ -210,9 +210,30 @@
       "label": "Biologia",
       "duration_minutes": 90,
       "instructions": "Biología · 1. Introduccion a la Biologia + 2. Composicion Quimica de los seres vivos. Primera pasada orientativa según los PDF disponibles; cerrar con preguntas y recuperar lo visto 1–3 días antes. Ajustar al alcance real del práctico.",
-      "material_refs": [],
+      "material_refs": [
+        {
+          "source_filename": "1. Introduccion a la Biologia.pdf",
+          "page_start": 1,
+          "page_end": 32,
+          "page_basis": "physical_pdf_pages",
+          "mapping_status": "verified",
+          "material_id": "material_1lGrZRVu5F-snUPfVbty54UUP87D8_9e3",
+          "drive_file_id": "1lGrZRVu5F-snUPfVbty54UUP87D8_9e3",
+          "view_url": "https://drive.google.com/file/d/1lGrZRVu5F-snUPfVbty54UUP87D8_9e3/view?usp=drivesdk"
+        },
+        {
+          "source_filename": "2. Composicion Quimica de los seres vivos.pdf",
+          "page_start": 1,
+          "page_end": 36,
+          "page_basis": "physical_pdf_pages",
+          "mapping_status": "verified",
+          "material_id": "material_1beFPQwo2LTA_M8i6OnclcKPT-aEZ_yWr",
+          "drive_file_id": "1beFPQwo2LTA_M8i6OnclcKPT-aEZ_yWr",
+          "view_url": "https://drive.google.com/file/d/1beFPQwo2LTA_M8i6OnclcKPT-aEZ_yWr/view?usp=drivesdk"
+        }
+      ],
       "needs_content_review": true,
-      "needs_material_mapping": true
+      "needs_material_mapping": false
     },
     {
       "id": "session_2026-10-22_3",
@@ -222,9 +243,20 @@
       "label": "Histologia",
       "duration_minutes": 90,
       "instructions": "Histología · Histología 1: dividir el resumen en unidades de tejidos y comenzar la primera. Estudiar estructura y función; cerrar reconociendo imágenes sin rótulos. Repasar 10–15 min los preparados de 1, 3 y 7 días antes. Secuencia provisional hasta confirmar programa y alcance.",
-      "material_refs": [],
+      "material_refs": [
+        {
+          "source_filename": "Histologia 1.docx.pdf",
+          "page_start": 1,
+          "page_end": 85,
+          "page_basis": "physical_pdf_pages",
+          "mapping_status": "verified",
+          "material_id": "material_1v4dJj1g_e2ZU6ByfslHJOMsNELkWSYuH",
+          "drive_file_id": "1v4dJj1g_e2ZU6ByfslHJOMsNELkWSYuH",
+          "view_url": "https://drive.google.com/file/d/1v4dJj1g_e2ZU6ByfslHJOMsNELkWSYuH/view?usp=drivesdk"
+        }
+      ],
       "needs_content_review": true,
-      "needs_material_mapping": true
+      "needs_material_mapping": false
     },
     {
       "id": "session_2026-10-23_1",

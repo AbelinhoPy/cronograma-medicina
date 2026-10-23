@@ -100,6 +100,7 @@ Ejemplo completo:
 
   const subjectId = String(args.subject || "anatomia").toLowerCase();
   const pageCount = Number(args.pages) || 1;
+  const sizeBytes = args.bytes || args.size ? Number(args.bytes || args.size) : undefined;
   const categoryPath = String(args.category || getSubjectCategory(subjectId));
   const notes = args.notes ? String(args.notes) : undefined;
   const shouldDeploy = Boolean(args.deploy);
@@ -109,7 +110,7 @@ Ejemplo completo:
 
   console.log(`\n⏳ Procesando material: ${title}`);
   console.log(`   Drive File ID: ${driveFileId}`);
-  console.log(`   Materia: ${subjectId} | Páginas: ${pageCount}`);
+  console.log(`   Materia: ${subjectId} | Páginas: ${pageCount}${sizeBytes ? ` | Tamaño: ${sizeBytes} bytes` : ""}`);
 
   // 1. Neon Database Update
   const databaseUrl = process.env.DATABASE_URL;
@@ -125,16 +126,17 @@ Ejemplo completo:
       `INSERT INTO documents (
         id, title, subject_id, category_path, provider, drive_file_id,
         view_url, size_bytes, page_count, is_duplicate, needs_curriculum_confirmation, is_available, notes
-      ) VALUES ($1, $2, $3, $4, 'google_drive', $5, $6, $7, $8, false, false, true, $9)
+      ) VALUES ($1, $2, $3, $4, 'google_drive', $5, $6, COALESCE($7, 1048576), $8, false, false, true, $9)
       ON CONFLICT (drive_file_id) DO UPDATE SET
         title = EXCLUDED.title,
         subject_id = EXCLUDED.subject_id,
         category_path = EXCLUDED.category_path,
         view_url = EXCLUDED.view_url,
+        size_bytes = COALESCE(NULLIF(EXCLUDED.size_bytes, 1048576), documents.size_bytes, EXCLUDED.size_bytes),
         page_count = EXCLUDED.page_count,
         notes = EXCLUDED.notes,
         is_available = true`,
-      [docId, title, subjectId, categoryPath, driveFileId, viewUrl, 1024 * 1024, pageCount, notes || null]
+      [docId, title, subjectId, categoryPath, driveFileId, viewUrl, sizeBytes || null, pageCount, notes || null]
     );
     console.log("✅ Documento guardado en Neon PostgreSQL.");
 
@@ -202,7 +204,7 @@ Ejemplo completo:
         provider: "google_drive",
         drive_file_id: driveFileId,
         view_url: viewUrl,
-        size_bytes: 1024 * 1024,
+        size_bytes: sizeBytes || rawMat.files[existingIdx]?.size_bytes || 1024 * 1024,
         page_count: pageCount,
         is_duplicate: false,
         canonical_drive_file_id: null,

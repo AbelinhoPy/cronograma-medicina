@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
+import { revalidatePath } from "next/cache";
 import { updateSessionProgress, getDayPlan } from "@/lib/data";
 import { auth } from "@/auth";
 
@@ -44,6 +45,10 @@ export async function POST(request: NextRequest) {
       notes,
       actual_minutes,
     });
+
+    revalidatePath("/");
+    revalidatePath("/avance");
+    revalidatePath("/calendario");
 
     return NextResponse.json({ success: true, progress: updated });
   } catch (error: any) {

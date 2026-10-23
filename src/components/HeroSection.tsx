@@ -25,7 +25,7 @@ export function HeroSection({
           Un paso hacia tus finales.
         </h1>
         <p className="text-sm md:text-base text-[#cad4e7] max-w-2xl">
-          Plan de estudio con tus 75 PDFs de Google Drive y bolillero de 25
+          Plan de estudio con tus 77 PDFs de Google Drive y bolillero de 25
           bolillas. 21 de octubre — 7 de diciembre de 2026.
         </p>
       </div>

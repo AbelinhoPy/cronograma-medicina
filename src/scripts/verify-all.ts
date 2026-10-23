@@ -30,22 +30,35 @@ async function verifyAll() {
   assert(canonicalDocs.length === 71, `Documentos principales canónicos: ${canonicalDocs.length} (esperado 71)`);
   assert(duplicateDocs.length === 6, `Copias duplicadas identificadas: ${duplicateDocs.length} (esperado 6)`);
 
-  // 2. Comprobar presencia del Atlas de Histología y la Guía de Biofísica
+  // 2. Comprobar presencia del Atlas de Histología y la Guía de Biofísica con tamaños exactos
   const atlas = docs.find((d) => d.drive_file_id === "1ZpP5u2mVk-kVaYYi4I0qLNxbIALghkUn");
   const bio = docs.find((d) => d.drive_file_id === "16FAAo3qNQN8hyFIhHovl5veRrFuQPpEZ");
   assert(Boolean(atlas && atlas.page_count === 57), `Atlas de Histología presente con 57 páginas: ${atlas?.title}`);
   assert(Boolean(bio && bio.page_count === 43), `Guía de Biofísica presente con 43 páginas: ${bio?.title}`);
+  assert(atlas?.size_bytes === 47462746, `Atlas con tamaño exacto (45.3 MB): ${atlas?.size_bytes} bytes`);
+  assert(bio?.size_bytes === 201110, `Guía Biofísica con tamaño exacto (196 KB): ${bio?.size_bytes} bytes`);
 
   // 3. Comprobar 127 sesiones totales
   const sessions = await getAllSessions();
   assert(sessions.length === 127, `Total de sesiones en el cronograma: ${sessions.length} (esperado 127)`);
 
-  // 4. Comprobar sesiones de Biofísica antes del práctico (26/10)
+  // 4. Comprobar sesiones de Biofísica antes del práctico (26/10) y sesiones del 22/10
   const pOct22 = await getDayPlan("2026-10-22", "yanina");
   const sOct22Bio = pOct22.sessions.find((s) => s.subject_id === "biofisica");
+  const sOct22Biologia = pOct22.sessions.find((s) => s.subject_id === "biologia");
+  const sOct22Histo = pOct22.sessions.find((s) => s.subject_id === "histologia");
+
   assert(
     sOct22Bio?.material_refs[0]?.page_start === 25 && sOct22Bio?.material_refs[0]?.page_end === 28,
-    "22/10 Biofísica vinculado a pp. 25–28 (mecánica de fluidos, hidrostática)"
+    "22/10 Bloque 1 Biofísica vinculado a pp. 25–28 (mecánica de fluidos, hidrostática)"
+  );
+  assert(
+    Boolean(sOct22Biologia && sOct22Biologia.material_refs.length >= 2),
+    `22/10 Bloque 2 Biología vinculado a ${sOct22Biologia?.material_refs.length} materiales (Introducción y Composición Química)`
+  );
+  assert(
+    Boolean(sOct22Histo && sOct22Histo.material_refs.length >= 1),
+    `22/10 Bloque 3 Histología vinculado a ${sOct22Histo?.material_refs.length} materiales (Histologia 1.docx.pdf)`
   );
 
   const pOct24 = await getDayPlan("2026-10-24", "yanina");

@@ -7,7 +7,7 @@ import { Navbar } from "@/components/Navbar";
 export const metadata: Metadata = {
   title: "Mi ruta a los finales · Medicina",
   description:
-    "Aplicación de estudio para Yanina, alumna de primer año de Medicina. Calendario de estudio, biblioteca de 75 PDFs en Drive y seguimiento de avance.",
+    "Aplicación de estudio para Yanina, alumna de primer año de Medicina. Calendario de estudio, biblioteca de 77 PDFs en Drive y seguimiento de avance.",
 };
 
 export default function RootLayout({
